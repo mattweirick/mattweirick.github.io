@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://academic.mattweirick.com/publications/
 
   - title: "Presentations"
-    url: /presentations/
+    url: https://academic.mattweirick.com/presentations/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: https://academic.mattweirick.com/teaching/
     
   #- title: "Portfolio"
   #  url: /portfolio/
@@ -16,7 +16,7 @@ main:
   #  url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: https://academic.mattweirick.com/cv/
     
   #- title: "Guide"
   #  url: /markdown/
