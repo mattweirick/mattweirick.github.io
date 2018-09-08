@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Matthew Weirick Johnson, MSLS"
 title_separator          : "-"
 name                     : &name "Matthew Weirick Johnson"
-description              : &description "I am a professional librarian (in that I have an MSLS) and freelance photographer (in that I have a Canon EOS 6D Mark II. I'm interested in academic library instruction, information literacies (e.g. digital, personal health, sexual health, other health), and health information behavior, especially as enacted on dating applications."
+description              : &description "I am a professional librarian and freelance photographer."
 url                      : https://academic.mattweirick.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mattweirick/mattweirick.github.io"
@@ -99,7 +99,7 @@ author:
   instagram        : "mattbrarian"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
