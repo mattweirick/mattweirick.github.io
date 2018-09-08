@@ -6,7 +6,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2016-04-12
 venue: 'Philologia'
 paperurl: ''
-citation: 'Johnson, M. W. (). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: '“’All human beings, as we meet them, are commingled out of good and evil’:  Connections between Person and Place in Wuthering Heights.” Philologia: vol. 8. 12 April 2016.'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
