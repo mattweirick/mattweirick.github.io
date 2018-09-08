@@ -14,10 +14,10 @@ I graduated from the University of North Carolina at Chapel Hill with an MSLS in
 
 Education
 ------
-MS in Library Science, [University of North Carolina](sils.unc.edu), 2018
+MS in Library Science, [University of North Carolina](https://sils.unc.edu), 2018
 - Certificates: Interdisciplinary Health Communication, Interdisciplinary Health Disparities, SILS Diversity Advocate
 
-BA in English, [Virginia Tech](english.vt.edu), 2016
+BA in English, [Virginia Tech](https://english.vt.edu), 2016
 
 Site-wide configuration
 ------
