@@ -1,11 +1,11 @@
 ---
-title: "Undergraduate Research"
+title: "Research Ambassador"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
 venue: "Virginia Tech, Office of Undergraduate Research"
 date: 2015-01-01
-location: "City, Country"
+location: "Blacksburg, VA"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
