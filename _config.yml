@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Matthew Weirick Johnson"
 title_separator          : "-"
-name                     : &name "Matthew Weirick Johnson"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Matthew Weirick Johnson, MSLS"
+description              : &description "I am a professional librarian (in that I have an MSLS) and freelance photographer (in that I have a Canon EOS 6D Mark II. I'm interested in academic library instruction, information literacies (e.g. digital, personal health, sexual health, other health), and health information behavior, especially as enacted on dating applications."
+url                      : https://academic.mattweirick.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "mattweirick/mattweirick.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -79,13 +79,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Matthew Weirick Johnson"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  location         : "Chapel Hill, NC"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "matt@mattweirick.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -93,10 +93,10 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "mattweirick"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "mattbrarian"
   lastfm           :
   linkedin         :
   orcid            : "http://orcid.org/yourorcidurl"
@@ -105,7 +105,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "xoxoMattyBoy"
   vine             :
   weibo            :
   xing             :
