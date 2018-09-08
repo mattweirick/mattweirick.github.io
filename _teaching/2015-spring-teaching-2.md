@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 2"
+title: "Undergraduate Research"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+venue: "Virginia Tech, Office of Undergraduate Research"
 date: 2015-01-01
 location: "City, Country"
 ---
