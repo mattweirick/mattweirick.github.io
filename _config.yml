@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Matthew Weirick Johnson"
+title                    : "Matthew Weirick Johnson, MSLS"
 title_separator          : "-"
-name                     : &name "Matthew Weirick Johnson, MSLS"
+name                     : &name "Matthew Weirick Johnson"
 description              : &description "I am a professional librarian (in that I have an MSLS) and freelance photographer (in that I have a Canon EOS 6D Mark II. I'm interested in academic library instruction, information literacies (e.g. digital, personal health, sexual health, other health), and health information behavior, especially as enacted on dating applications."
 url                      : https://academic.mattweirick.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -79,12 +79,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Matthew Weirick Johnson"
+  name             : "Matthew Weirick Johnson, MSLS"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "I am a professional librarian (in that I have an MSLS) and freelance photographer (in that I have a Canon EOS 6D Mark II. I'm interested in academic library instruction, information literacies (e.g. digital, personal health, sexual health, other health), and health information behavior, especially as enacted on dating applications."
   location         : "Chapel Hill, NC"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : "matt@mattweirick.com"
   uri              :
   bitbucket        :
