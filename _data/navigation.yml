@@ -21,5 +21,5 @@ main:
   #- title: "Guide"
   #  url: /markdown/
 
-  #- title: "Photography"
-  #  url: mattweirick.com
+  - title: "Photography"
+    url: https://mattweirick.com
