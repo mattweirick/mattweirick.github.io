@@ -16,7 +16,7 @@ main:
   #  url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: https://academic.mattweirick.com/files/Johnson-CV-2018.09.pdf
     
   #- title: "Guide"
   #  url: /markdown/
