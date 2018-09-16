@@ -9,7 +9,6 @@ location: "Chapel Hill, NC"
 ---
 
 
-### Community Workshop Series
 [cws.web.unc.edu](https://cws.web.unc.edu)
 
 The Community Workshop Series (CWS) is a partnership between UNC's School of Information & Library Science (SILS) and three local libraries to offer vital digital literacy skills to local community members.
