@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshops"
 permalink: /teaching/2015-CWS
 venue: "University of North Carolina at Chapel Hill, School of Information & Library Science"
-date: 2015-01-01
+date: 2017-07-15
 location: "Chapel Hill, NC"
 ---
 
