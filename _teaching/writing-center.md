@@ -11,7 +11,7 @@ location: "Blacksburg, VA, USA"
 I provided one-on-one writing instruction, developed and presented writing workshops, and served as teaching assistant for a writing tutor training course at the Virginia Tech Writing Center.
 
 ### Teaching Assistant
-#### ENGL 3744H: Writing Center Theory & Practice
+ENGL 3744H: Writing Center Theory & Practice
 - assisted Writing Center Assistant Director with planning and teaching
 - lead classes and mentored students
 - provided feedback on student papers
