@@ -2,7 +2,7 @@
 title: "Coordinator (Graduate Research Assistant)"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2015-CWS
 venue: "University of North Carolina at Chapel Hill, School of Information & Library Science"
 date: 2015-01-01
 location: "Chapel Hill, NC"
