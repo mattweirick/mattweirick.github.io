@@ -21,12 +21,12 @@ MS in Library Science, [University of North Carolina](https://sils.unc.edu), 201
 BA in English, [Virginia Tech](https://english.vt.edu), 2016
 
 ### Academic Interests
->Professional
+Professional
 - Academic Librarianship
 - Medical & Health Sciences Librarianship
 - Academic Instruction & Information Literacy
 
->Research
+Research
 - Health Information Behavior
 - HIV & Dating Applications
 - mHealth & eHealth
