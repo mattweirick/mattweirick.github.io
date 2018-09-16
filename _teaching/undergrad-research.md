@@ -1,8 +1,8 @@
 ---
 title: "Research Ambassador"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
+type: "Workshops, One-on-ones"
+permalink: /teaching/undergrad-research
 venue: "Virginia Tech, Office of Undergraduate Research"
 date: 2015-01-01
 location: "Blacksburg, VA"
