@@ -8,4 +8,4 @@ date: 2015-05-23
 location: "Messolonghi, GR"
 ---
 
-[More information here](https://www.messolonghibyronsociety.gr/index.php/en/10th-student-byron-conference/203.html)
+[Conference Proceedings](https://www.messolonghibyronsociety.gr/index.php/en/10th-student-byron-conference/203.html)

@@ -8,4 +8,4 @@ date: 2018-04-13
 location: "Chapel Hill, NC"
 ---
 
-[More information here](https://academic.mattweirick.com/files/matthewjohnson.silsfairposter.pdf)
+[Poster](https://academic.mattweirick.com/files/matthewjohnson.silsfairposter.pdf)
