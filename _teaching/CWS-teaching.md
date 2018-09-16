@@ -15,7 +15,7 @@ The Community Workshop Series (CWS) is a partnership between UNC's School of Inf
 
 As the coordinator for the program, I developed programming to train our students who wanted to teach our classes, and I worked with students who were teaching classes to improve their teaching. I also developed a few new classes for CWS and worked to improve the curricula for various classes that we offer. As part of this position, I also worked to improve the assessment of the program and our classes offered and conducted regular collection and analysis of assessment data.
 
-#### Responsibilities
+### Responsibilities
 - Recruited and retained volunteers
 - Facilitated and organized training for volunteers
 - Coordinated with faculty and staff at SILS and library partners
