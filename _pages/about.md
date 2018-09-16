@@ -21,16 +21,16 @@ MS in Library Science, [University of North Carolina](https://sils.unc.edu), 201
 BA in English, [Virginia Tech](https://english.vt.edu), 2016
 
 ### Academic Interests
-Professional
-- Academic Librarianship
-- Medical & Health Sciences Librarianship
-- Academic Instruction & Information Literacy
+- Professional
+    - Academic Librarianship
+    - Medical & Health Sciences Librarianship
+    - Academic Instruction & Information Literacy
 
-Research
-- Health Information Behavior
-- HIV & Dating Applications
-- mHealth & eHealth
-- Critical Information Literacies
+- Research
+    - Health Information Behavior
+    - HIV & Dating Applications
+    - mHealth & eHealth
+    - Critical Information Literacies
 
 ### Master's Paper
 “Not playing that game”: An Exploratory Study of Queer Men’s Health Information Behavior on Location-Aware Dating and Sex-Seeking Mobile Applications [[in the Carolina Digital Repository]](https://cdr.lib.unc.edu/record/uuid:18af99e3-216f-4ef8-be23-65a813f3a7c3)
