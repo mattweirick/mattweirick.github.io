@@ -2,7 +2,7 @@
 title: "Research & Education Intern"
 collection: teaching
 type: "One-on-One"
-permalink: /teaching/DUMCL-teaching
+permalink: /teaching/DUMCL
 venue: "Duke University Medical Center Library & Archives, Research & Education"
 date: 2016-09-01
 location: "Durham, NC"
