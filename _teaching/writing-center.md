@@ -1,5 +1,5 @@
 ---
-title: "Writing Center"
+title: "Teaching Assistant & Writing Consultant"
 collection: teaching
 type: "Undergraduate course, One-on-ones, Workshops"
 permalink: /teaching/writing-center
