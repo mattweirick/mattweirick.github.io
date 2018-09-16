@@ -1,8 +1,8 @@
 ---
 title: "Writing Center"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+type: "Undergraduate course, One-on-ones, Workshops"
+permalink: /teaching/writing-center
 venue: "Virginia Tech, Writing Center"
 date: 2013-01-01
 location: "Blacksburg, VA, USA"
