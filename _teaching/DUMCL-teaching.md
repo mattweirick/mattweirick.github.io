@@ -1,7 +1,7 @@
 ---
 title: "Research & Education Intern"
 collection: teaching
-type: "One-on-One"
+type: "One-on-Ones"
 permalink: /teaching/DUMCL
 venue: "Duke University Medical Center Library & Archives, Research & Education"
 date: 2016-09-01
