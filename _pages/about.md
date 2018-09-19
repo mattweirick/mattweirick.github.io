@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Matthew Weirick Johnson"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
