@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Matthew Weirick Johnson"
 description              : &description "I am a professional librarian and freelance photographer."
