@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Matthew Weirick Johnson, MSLS"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
