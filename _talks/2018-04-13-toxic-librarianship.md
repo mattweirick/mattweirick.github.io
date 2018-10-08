@@ -2,7 +2,7 @@
 title: "Toxic Librarianship: An Exploration of Waste and Masculinity (Is That Redundant?) in Libraries"
 collection: talks
 type: "conference panel"
-permalink: /talks/2018-04-13-toxic-lib
+permalink: /talks/2018-04-13-toxic-librarianship
 venue: "SILS Symposium on Information for Social Good"
 date: 2018-04-13
 location: "Chapel Hill, NC"
