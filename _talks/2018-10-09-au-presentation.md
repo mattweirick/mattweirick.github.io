@@ -7,3 +7,4 @@ venue: "Augusta University, Greenblatt Library"
 date: 2018-10-09
 location: "Augusta, GA"
 ---
+[Download powerpoint presentation](https://academic.mattweirick.com/files/au-presentation-20181009.pptx)
