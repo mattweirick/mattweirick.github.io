@@ -7,7 +7,7 @@ venue: "International Writing Centers Association Conference"
 date: 2015-10-09
 location: "Pittsburgh, PA"
 ---
-Download presentation [.pptx](https://academic.mattweirick.com/files/writing-partners.pptx) [.pdf](https://academic.mattweirick.com/files/writing-partners.pdf)
+Download presentation [[.pptx]](https://academic.mattweirick.com/files/writing-partners.pptx) [[.pdf]](https://academic.mattweirick.com/files/writing-partners.pdf)
 
 [Conference Abstract](https://academic.mattweirick.com/files/2015-10-09-writing-partners.pdf)
 
