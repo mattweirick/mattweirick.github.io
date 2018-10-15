@@ -3,3 +3,7 @@
 <h3>The Search Process Video</h3> 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ud1b6CZGk74" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<h3>Backward Searching Video</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c3TJ95bG0lU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
