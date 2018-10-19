@@ -19,7 +19,7 @@ main:
     url: https://academic.mattweirick.com/files/Johnson-CV-2018.09.pdf
     
   - title: "Teaching & Diversity Statement"
-    url: /statement.md
+    url: /statement/
     
   #- title: "Guide"
   #  url: /markdown/
