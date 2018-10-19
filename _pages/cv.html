@@ -5,9 +5,10 @@ permalink: /cv/
 author_profile: true
 ---
 <body>
-<!-- insert just before the closing body tag </body> -->
-<script src='mattweirick.github.io/assets/js/pdfobject.js'></script>
-<script>
-PDFObject.embed("https://academic.mattweirick.com/files/Johnson-CV-2018.09.pdf");
-</script>
+  <div id="mycontainer"></div>
+    <!-- insert just before the closing body tag </body> -->
+    <script src='/assets/js/pdfobject.js'></script>
+    <script>
+    PDFObject.embed("/files/Johnson-CV-2018.09.pdf", "#mycontainer");
+    </script>
 </body>
