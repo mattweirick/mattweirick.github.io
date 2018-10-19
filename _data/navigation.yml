@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Teaching & Diversity Statement"
-    url: /statement/
+  - title: "Teaching Philosophy & Diversity Statement"
+    url: /philosophy/
     
   #- title: "Guide"
   #  url: /markdown/
