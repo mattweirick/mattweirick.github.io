@@ -7,5 +7,5 @@ venue: "Missouri University of Science & Technology"
 date: 2018-11-27
 location: "Rolla, MO"
 ---
-Download presentation [[.pptx]](https://academic.mattweirick.com/files/au-presentation-20181009.pptx) [[.pdf]](https://academic.mattweirick.com/files/au-presentation-20181009.pdf)
+Download presentation [[.pptx]](https://academic.mattweirick.com/files/mst-presentation-20181127.pptx) [[.pdf]](https://academic.mattweirick.com/files/mst-presentation-20181127.pdf)
 
