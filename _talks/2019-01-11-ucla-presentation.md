@@ -2,7 +2,7 @@
 title: "Where in Los Angeles is Carmen Sandiego? / A Lesson Plan for DH 151"
 collection: talks
 type: "talk"
-permalink: /talks/2019-01-11-ucla-presentation.md
+permalink: /talks/2019-01-11-ucla-presentation
 venue: "University of California, Los Angeles"
 date: 2019-01-11
 location: "Los Angeles, CA"
