@@ -16,7 +16,7 @@ I graduated from the University of North Carolina at Chapel Hill with an MSLS in
 ### Education
 
 MS in Library Science, [University of North Carolina](https://sils.unc.edu), 2018
-- Certificates: [Interdisciplinary Health Communication](https://ihc.unc.edu/), [Interdisciplinary Health Disparities](https://web.archive.org/web/20180213094700/https://sph.unc.edu/echo/echo-prospective-students/), [SILS Diversity Advocate](https://sils.unc.edu/diversity-equity-inclusion/certificate)
+- Certificates: [Interdisciplinary Health Communication](https://ihc.unc.edu/), [Interdisciplinary Health Disparities](https://web.archive.org/web/20180213094700/https://sph.unc.edu/echo/echo-prospective-students/), [SILS Diversity Advocate](https://sils.unc.edu/diversity-equity-inclusion/certificate-reqs)
 
 BA in English, [Virginia Tech](https://english.vt.edu), 2016
 
