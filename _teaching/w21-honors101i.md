@@ -2,7 +2,7 @@
 title: "Honors 101i: Research Today: Sources, Tools, and Strategies"
 
 collection: teaching 
-type: "Undergraduate course, research skills"
+type: "Undergraduate course"
 permalink: /teaching/w21-honors101i
 venue: "University of California, Los Angeles"
 date: 2021-01-04
