@@ -5,7 +5,7 @@ collection: teaching
 type: "Undergraduate course, research skills"
 permalink: /teaching/w21-honors101i
 venue: "University of California, Los Angeles"
-date: Winter Quarter 2021
+date: 2021-01
 location: "Los Angeles, CA, USA"
 ---
 
