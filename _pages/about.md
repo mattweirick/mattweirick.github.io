@@ -8,10 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a professional librarian (in that I have an MSLS) and freelance photographer (in that I have a Canon EOS 6D Mark II). I'm interested in academic library instruction, information literacies (e.g. digital, personal health, sexual health, other health), and health information behavior, especially as enacted on dating applications.
+I am a professional librarian and freelance photographer. I'm interested in academic library instruction, information literacies (e.g. digital, personal health, sexual health, other health), and health information behavior, especially as enacted on dating applications.
 
-I graduated from the University of North Carolina at Chapel Hill with an MSLS in May 2018 and have been searching for employment in an academic library setting.
+I graduated from the University of North Carolina at Chapel Hill with an MSLS in May 2018 and joined UCLA Library as Librarian for English & History. In addition to this primary role, I also serve as the Humanities & Social Sciences Lead for Research Services and the Lead for Teaching & Learning in the UCLA Library. 
 
+### Professional Librarian Work Experience
+
+Associate Librarian (Humanities & Social Sciences Librarian), UCLA Library, July 2019 - Present
+- Lead for Teaching & Learning, June 2020 - Present
+- Humanities & Social Sciences Lead for Research Services, March 2020 - Present
+- Librarian for English & History, July 2019 - Present
 
 ### Education
 
