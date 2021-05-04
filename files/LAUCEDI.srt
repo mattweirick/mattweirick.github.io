@@ -1,0 +1,181 @@
+WEBVTT
+
+1
+00:00:01,00 --> 00:00:04,00
+[SLIDE 1] Okay. Welcome. In this lightning talk, I’ll be giving a brief overview 
+
+2
+00:00:04,03 --> 00:00:08,00
+of UCLA Library’s Anti-Racist Pedagogy Workshop Series, 
+
+3
+00:00:08,03 --> 00:00:13,00
+which launched with our first workshop on 27 April 2021 (yay!). 
+
+4
+00:00:13,03 --> 00:00:19,00
+[SLIDE 2] The Teaching & Learning Functional Team is part of UCLA Library’s User Engagement matrixed structure. 
+
+5
+00:00:19,03 --> 00:00:24,00
+The team is currently made up of 10 members with rotating leadership and rotating membership. 
+
+6
+00:00:24,03 --> 00:00:32,00
+It currently includes 8 members from User Engagement, a librarian from the Digital Library Program, and a librarian from Library Special Collections. 
+
+7
+00:00:32,03 --> 00:00:40,00
+One of the central points of our charge is to promote professional development and reflective instructional practices for Library staff. 
+
+8
+00:00:40,03 --> 00:00:50,00
+In the past, this has included a series of Remote Teaching Design Jams and Open Mic events that provide opportunities for professional development & skill-sharing. 
+
+9
+00:00:50,03 --> 00:00:56,00
+[SLIDE 3] In the wake of George Floyd’s murder and as a result of Black-led activism demanding systemic change, 
+
+10
+00:00:56,03 --> 00:01:04,00
+we experienced a period of increased institutional support for anti-racist work, in which the Teaching & Learning Functional Team 
+
+11
+00:01:04,03 --> 00:01:11,00
+considered ways that we could support anti-racist practice in library instruction with three primary stipulations: 
+
+12
+00:01:11,03 --> 00:01:16,45
+1) our approach should center and support BIPOC colleagues, students, staff, and faculty, 
+
+13
+00:01:16,48 --> 00:01:25,00
+2) our intervention should be sustained and meaningful rather than a parachute effort like a one-off workshop or reading list, and 
+
+14
+00:01:25,03 --> 00:01:31,00
+3) we would recognize the limits of our own expertise and identify experts to help fill these gaps. 
+
+15
+00:01:31,03 --> 00:01:35,36
+One of the resulting initiatives was this Anti-Racist Pedagogy Workshop Series. 
+
+16
+00:01:35,39 --> 00:01:44,00
+[SLIDE 4] Our goal for the workshop series is to invite qualified facilitators and experts to present on anti-racist pedagogy and practice 
+
+17
+00:01:44,03 --> 00:01:55,00
+in a series available to all library staff to support anti-racist praxis in teaching & learning in alignment with the Library’s broader anti-racism initiative framework.
+
+18
+00:01:55,03 --> 00:02:05,00 
+In order to provide a scaffolded and sustained engagement with anti-racist praxis and to ensure effective professional development and growth, 
+
+19
+00:02:05,03 --> 00:02:12,00
+we had originally planned 6-8 sessions with invited speakers from September 2020 to June 2021.
+
+20
+00:02:12,03 --> 00:02:21,00
+For reasons, we currently plan to offer 3 sessions (one per month) from April 2021 to June 2021. 
+
+21
+00:02:21,03 --> 00:02:29,46
+Additionally, recognizing income disparities, material conditions, and the time and labor asked of our presenters and facilitators,
+
+22
+00:02:29,49 --> 00:02:34,00
+it was important for our team to secure funding to provide some compensation. 
+
+23
+00:02:34,03 --> 00:02:42,00
+So, we are able to provide $500 for each of our speakers thanks to our Associate University Librarian.
+
+24
+00:02:42,03 --> 00:02:46,00 
+We hope that this is helpful for our speakers and shows our gratitude for their work.
+
+25
+00:02:46,03 --> 00:02:48,00
+[SLIDE 5] Our workshop series is really just starting out. 
+
+26
+00:02:48,03 --> 00:02:54,00
+We had our first session in April with Dr. Michelle Caswell from UCLA’s Information Studies department 
+
+27
+00:02:54,03 --> 00:02:58,00
+to kick off the series with an introduction to critical race theory. 
+
+28
+00:02:58,03 --> 00:03:05,00
+The session was well-received with over 75 attendees and much appreciation for the opportunity. 
+
+29
+00:03:05,03 --> 00:03:14,00
+We’re excited for our next session in May with Dr. Esther Ohito from the University of North Carolina at Chapel Hill School of Education (Go Heels!) 
+
+30
+00:03:14,03 --> 00:03:18,00
+to talk about critical pedagogies and anti-racist teaching. 
+
+31
+00:03:18,03 --> 00:03:24,00
+I’m particularly excited for this mix of experts inside and outside of Library and Information Studies. 
+
+32
+00:03:24,03 --> 00:03:31,00
+And, we’re hopeful that these sessions will provide opportunities for us to discuss anti-racist instruction in our institutional setting 
+
+33
+00:03:31,03 --> 00:03:40,00
+and consider theoretically and practically how we can implement changes in our own library instruction as well as ways to improve our instruction program.
+
+34
+00:03:40,03 --> 00:03:44,00
+[SLIDE 6] I’m hopeful that we’ll be able to continue the workshop series beyond June,
+
+35
+00:03:44,03 --> 00:03:51,00
+though we’ll certainly check-in as we go to make sure that the workshops are providing the skill-building opportunities 
+
+36
+00:03:51,03 --> 00:03:57,00
+that our library instructors need and to make sure that the workshops are meeting our programmatic goals. 
+
+37
+00:03:57,03 --> 00:04:03,00
+If anyone has any suggested speakers or wants to be one of our speakers, I’m happy to hear from you all. 
+
+38
+00:04:03,03 --> 00:04:14,00
+So far, we have received some feedback about making the workshops available beyond UCLA Library either synchronously or through recordings. 
+
+39
+00:04:14,03 --> 00:04:23,00
+In order to create space for open discussion and dialogue and to specifically center UCLA Library as our context and in framing our solutions, 
+
+40
+00:04:24,03 --> 00:04:29,00
+we hadn’t planned on opening them up further or on making recordings available. 
+
+41
+00:04:29,03 --> 00:04:39,00
+In the future, we might explore other opportunities to open up avenues for discussion and engagement on anti-racist pedagogy beyond UCLA Library.
+
+42
+00:04:39,03 --> 00:04:48,00
+[SLIDE 7] If there are any questions or comments, you can email me at my Library email address (mattweirick@library.ucla.edu) 
+
+43
+00:04:48,03 --> 00:04:43,00
+or my personal professional email address (matt@mattweirick.com). 
+
+44
+00:04:43,03 --> 00:05:00,00
+This recording, along with the slides, captions, and transcript, will be available on my website (academic.mattweirick.com) 
+
+45
+00:05:00,03 --> 00:05:05,00
+if anyone would like to access the materials later. Thanks again.
