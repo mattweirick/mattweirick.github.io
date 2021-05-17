@@ -8,8 +8,8 @@ venue: 'The Journal of Interactive Technology & Pedagogy (JITP)'
 paperurl: 'https://jitp.commons.gc.cuny.edu/classroom-timeline-projects/'
 
 ---
-Spencer D. C. Keralis, University of Illinois at Urbana-Champaign
-Courtney E. Jacobs, University of California, Los Angeles
-Matthew Weirick Johnson, University of California, Los Angeles
+Spencer D. C. Keralis, University of Illinois at Urbana-Champaign  
+Courtney E. Jacobs, University of California, Los Angeles  
+Matthew Weirick Johnson, University of California, Los Angeles 
 
 [View online](https://jitp.commons.gc.cuny.edu/classroom-timeline-projects/)
