@@ -10,20 +10,21 @@ author_profile: true
   <script type="text/javascript" src="https://academic.mattweirick.com/assets/dist/main.bundle.js"></script>
  
   <script type="text/javascript">
-    const {
-      H5P
-    } = H5PStandalone;
-    new H5P(document.getElementById('h5p-container'),  {
-      h5pJsonPath: 'https://academic.mattweirick.com/files/h5p-content/getting-started-with-undergraduate-research-at-ucla-slides-1536',
+    (function($) {
+     $(function() {
+       $('.h5p-container').h5p({
+      h5pContent: 'https://academic.mattweirick.com/files/h5p-content/getting-started-with-undergraduate-research-at-ucla-slides-1536',
       frameJs: 'https://academic.mattweirick.com/assets/dist/frame.bundle.js',
       frameCss: 'https://academic.mattweirick.com/assets/dist/styles/h5p.css'
     });
+     });
+    })(h5p.jQuery);
   </script>
   </head>
 
 <body>
   <p>this is a test. Test 2.0</p>
-  <div id="h5p-container"></div>
+  <div class="h5p-container"></div>
 </body>
 
 </html>
