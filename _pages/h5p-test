@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "h5p-test"
+permalink: /h5p-test/
+author_profile: true
+---
+<script type="text/javascript" src="assets/main.bundle.js"></script>
+const el = document.getElementById('h5p-container');
+const options = {
+  h5pJsonPath:  'files/h5p-content/getting-started-with-undergraduate-research-at-ucla-slides-1536',
+  frameJs: '/assets/frame.bundle.js',
+  frameCss: '/assets/styles/h5p.css',
+}
+new H5PStandalone.H5P(el, options);
+<div id='h5p-container'></div>
