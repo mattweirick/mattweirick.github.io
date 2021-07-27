@@ -4,13 +4,27 @@ title: "h5p-test"
 permalink: /h5p-test/
 author_profile: true
 ---
-<script type="text/javascript" src="assets/main.bundle.js"></script>
-const el = document.getElementById('h5p-container');
-const options = {
-  h5pJsonPath:  'files/h5p-content/getting-started-with-undergraduate-research-at-ucla-slides-1536',
-  frameJs: '/assets/frame.bundle.js',
-  frameCss: '/assets/styles/h5p.css',
-}
-new H5PStandalone.H5P(el, options);
-<p>this is a page</p>
-<div id='h5p-container'></div>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" media="all" href="/dist/styles/h5p.css" />
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="/dist/main.bundle.js"></script>
+</head>
+
+<body>
+  <p>this is a test</p>
+  <div id="h5p-container"></div>
+
+  <script type="text/javascript">
+    const {
+      H5P
+    } = H5PStandalone;
+    new H5P(document.getElementById('h5p-container'),  {
+      h5pJsonPath: 'files/h5p-content/getting-started-with-undergraduate-research-at-ucla-slides-1536',
+      frameJs: '/dist/frame.bundle.js',
+      frameCss: '/dist/styles/h5p.css'
+    });
+  </script>
+</body>
+
+</html>
