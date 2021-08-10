@@ -6,6 +6,7 @@ excerpt: 'For over a decade, the University of North Carolina at Chapel Hill (UN
 date: 21-07-14
 venue: 'Library Trends'
 paperurl: 'http://doi.org/10.1353/lib.2020.0045'
+paperurlopen: 'https://escholarship.org/uc/item/7wk3t5w4'
 --- 
 Matthew Weirick Johnson, University of California, Los Angeles  
 Meggie Lasher, Davidson College
