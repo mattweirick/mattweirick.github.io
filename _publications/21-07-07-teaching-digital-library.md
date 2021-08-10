@@ -8,8 +8,8 @@ venue: 'College & Research Libraries News'
 paperurl: 'https://doi.org/10.5860/crln.82.7.302'
 
 --- 
-Matthew Weirick Johnson, University of California, Los Angeles 
-Salma Abumeeiz, University of California, Los Angeles
-Elizabeth McAulay, University of California, Los Angeles
+Matthew Weirick Johnson, University of California, Los Angeles  
+Salma Abumeeiz, University of California, Los Angeles  
+Elizabeth McAulay, University of California, Los Angeles  
 
 [View online](https://doi.org/10.5860/crln.82.7.302)
