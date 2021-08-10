@@ -8,7 +8,7 @@ venue: 'Library Trends'
 paperurl: 'http://doi.org/10.1353/lib.2020.0045'
 
 --- 
-Matthew Weirick Johnson, University of California, Los Angeles 
+Matthew Weirick Johnson, University of California, Los Angeles  
 Meggie Lasher, Davidson College
 
 [View online](http://doi.org/10.1353/lib.2020.0045)(paywall)  
