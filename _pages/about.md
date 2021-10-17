@@ -22,7 +22,7 @@ Associate Librarian (Humanities & Social Sciences Librarian), UCLA Library, July
 ### Education
 
 MS in Library Science, [University of North Carolina](https://sils.unc.edu), 2018
-- Certificates: [Interdisciplinary Health Communication](https://ihc.unc.edu/), [Interdisciplinary Health Disparities](https://web.archive.org/web/20180213094700/https://sph.unc.edu/echo/echo-prospective-students/), [SILS Diversity Advocate](https://sils.unc.edu/diversity-equity-inclusion/certificate-reqs)
+- Certificates: [Interdisciplinary Health Communication] (https://web.archive.org/web/20171016190008/http://ihc.unc.edu/), [Interdisciplinary Health Disparities](https://web.archive.org/web/20180213094700/https://sph.unc.edu/echo/echo-prospective-students/), [SILS Diversity Advocate](https://sils.unc.edu/diversity-equity-inclusion/certificate-reqs)
 
 BA in English, [Virginia Tech](https://english.vt.edu), 2016
 
@@ -34,7 +34,8 @@ BA in English, [Virginia Tech](https://english.vt.edu), 2016
 
 - Research
     - Health Information Behavior
-    - HIV & Dating Applications
+    - HIV
+    - Dating Applications
     - mHealth & eHealth
     - Critical Information Literacies
 
