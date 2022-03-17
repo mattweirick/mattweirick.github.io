@@ -6,7 +6,7 @@ tags:
   - Call for Chapters
   - Training Student Library Instructors
 ---
-<i class="fa fa-calendar" aria-hidden="true"></i>Chapter proposal submissions are due by 1 April 2022  
+<i class="fa fa-calendar" aria-hidden="true"></i> **Chapter Proposal Deadline:** 1 June 2022
 
 # Contents
 - [About the Books](https://academic.mattweirick.com/posts/call-for-chapters#about-the-books)
