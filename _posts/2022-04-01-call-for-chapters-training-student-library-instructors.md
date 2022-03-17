@@ -6,6 +6,8 @@ tags:
   - Call for Chapters
   - Training Student Library Instructors
 ---
+Chapter proposal submissions are due by 1 April 2022  
+
 # Contents
 - [About the Books](https://academic.mattweirick.com/posts/call-for-chapters#about-the-books)
 - [Call for Chapter Proposals](https://academic.mattweirick.com/posts/call-for-chapters#call-for-chapter-proposals)
@@ -104,7 +106,7 @@ Proposals can be submitted using the embedded Google Form below or by visiting h
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScN9e0Y35VSOgH4CWIZvQ_Mx8RYf5BITYo4zjhRTmxI2qgMCQ/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
   
-<br></br>  
+<br> 
 Proposals should include the names and affiliations of all potential authors/contributors, the intended volume and section of the chapter, and a 500-word abstract. Proposals will be reviewed based on the following areas, where relevant: significance of topic, reference to existing literature, research design & methodology, content & discussion, conclusions & contributions, and quality of writing. Proposals will also be considered based on the volume and section to which they would contribute.  
 
 About the Editor
