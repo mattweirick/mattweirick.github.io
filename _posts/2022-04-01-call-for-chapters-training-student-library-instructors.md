@@ -109,7 +109,7 @@ Proposals should include the names and affiliations of all potential authors/con
 
 About the Editor
 ======
-Matthew Weirick Johnson (they/them) is Librarian for English, History &amp; Comparative Literature
+![a headshot of the editor](https://academic.mattweirick.com/files/headshot.png)Matthew Weirick Johnson (they/them) is Librarian for English, History &amp; Comparative Literature
 and Lead for Teaching &amp; Learning at UCLA Library. As Lead for Teaching &amp; Learning, Johnson led
 the development and delivery of UCLA Library’s inaugural library instruction training for library
 student research assistants and continues to lead this initiative to annually train student
