@@ -55,8 +55,6 @@ Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads pub
   
 Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209.  <br>    
 
-<hr style="border:2px black">
-
 # Call for Chapter Proposals
 These edited volumes will present case studies for training library school students or student workers to provide instruction. Each chapter should provide background and context for the case and include relevant and specific information that a colleague would need to initiate a similar program, course, collaboration, etc. Chapters will be separated into two volumes, which will include sections for (1) theory, practice, and need, (2) case studies, and (3) learner reflections and perspectives. Case studies will likely be separated into those that discuss a particular program, course, or approach to training and those that discuss partnering or collaborating to engage learners in practical teaching experiences. 
 
