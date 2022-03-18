@@ -40,7 +40,9 @@ The first volume will focus on integrating teacher training in graduate programs
 The second volume will focus on training student library instructors in academic libraries through training programs, on-the-job training, or other mechanisms. The book will begin with a framing of the need for training library student workers to teach and the value of peer-to-peer teaching & learning initiatives. This will be followed by case studies of how librarians and academic libraries have incorporated instruction training for their student workers or early-career librarians to prepare them for instructional duties and case studies exploring collaborations for peer-to-peer teaching opportunities. The volume will close with reflections and perspectives from graduate students and early-career librarians about their experiences with on-the-job training or in-house training programs in academic libraries as student workers or early-career librarians.
 
 ## References
-Lynch & Smith, 2001  
+{{< biblio-ref >}}
+Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. College & Research Libraries, 62(5), 407-420. 
+{{< /biblio-ref >}}
 Sproles & Ratledge, 2004  
 Sproles & Detmering, 2012  
 Dodd 2013  
