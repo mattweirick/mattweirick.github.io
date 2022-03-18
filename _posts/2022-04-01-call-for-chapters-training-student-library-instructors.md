@@ -15,7 +15,7 @@ tags:
 - [About the Editor](https://academic.mattweirick.com/posts/call-for-chapters#about-the-editor)
 
 # About the Books
-Librarians are increasingly expected to provide instruction as part of their job responsibilities. Repeated reviews of librarian job ads have shown increases in instructional responsibilities or an expectation of instruction as a core responsibility for librarians (Lynch & Smith, 2001; Sproles & Ratledge, 2004; Sproles & Detmering, 2012). In Dodd's (2013) survey of supervisors, 87% reported that library instruction was very important in their libraries. Additionally, they noted that assisting other instructors, on-the-job training, in-house training programs, and observing other instructors were the best ways to prepare a new librarian to do instruction. However, often library school students and early career librarians receive little or no formal teacher training in their graduate programs, from work experiences during grad school, or in their professional roles. 
+Librarians are increasingly expected to provide instruction as part of their job responsibilities. Repeated reviews of librarian job ads have shown increases in instructional responsibilities or an expectation of instruction as a core responsibility for librarians (Lynch & Smith, 2001; Sproles & Ratledge, 2004; Sproles & Detmering, 2012). In Hall's (2013) survey of supervisors, 87% reported that library instruction was very important in their libraries. Additionally, they noted that assisting other instructors, on-the-job training, in-house training programs, and observing other instructors were the best ways to prepare a new librarian to do instruction. However, often library school students and early career librarians receive little or no formal teacher training in their graduate programs, from work experiences during grad school, or in their professional roles. 
 
 These two edited volumes, to be published by ACRL Press, will outline case studies and best practices for developing and delivering teacher training for students and early-career librarians in academic libraries and LIS graduate programs. 
 
@@ -48,7 +48,7 @@ The second volume will focus on training student library instructors in academic
   <p>Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21.</p>
   <p>Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Eletronic Journal of Academic and Special Librarianship*, *5*(2-3).</p> 
   <p>Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209.</p>
-  <p>Dodd 2013</p>  
+  <p>Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94.</p>  
 </div>
 
 # Call for Chapter Proposals
