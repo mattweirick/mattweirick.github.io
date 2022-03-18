@@ -14,7 +14,7 @@ tags:
 - [Submission Procedures](https://academic.mattweirick.com/posts/call-for-chapters#submission-procedures)
 - [About the Editor](https://academic.mattweirick.com/posts/call-for-chapters#about-the-editor)
 
----
+<hr style="border:2px black"> </hr>
 
 # About the Books
 Librarians are increasingly expected to provide instruction as part of their job responsibilities. Repeated reviews of librarian job ads have shown increases in instructional responsibilities or an expectation of instruction as a core responsibility for librarians (Lynch & Smith, 2001; Sproles & Ratledge, 2004; Sproles & Detmering, 2012). In Hall's (2013) survey of supervisors, 87% reported that library instruction was very important in their libraries. Additionally, they noted that assisting other instructors, on-the-job training, in-house training programs, and observing other instructors were the best ways to prepare a new librarian to do instruction. However, often library school students and early career librarians receive little or no formal teacher training in their graduate programs, from work experiences during grad school, or in their professional roles. 
@@ -57,7 +57,7 @@ Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads pub
   
 Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209.  <br>    
 
----
+<hr style="border:2px black"> </hr>
 
 # Call for Chapter Proposals
 These edited volumes will present case studies for training library school students or student workers to provide instruction. Each chapter should provide background and context for the case and include relevant and specific information that a colleague would need to initiate a similar program, course, collaboration, etc. Chapters will be separated into two volumes, which will include sections for (1) theory, practice, and need, (2) case studies, and (3) learner reflections and perspectives. Case studies will likely be separated into those that discuss a particular program, course, or approach to training and those that discuss partnering or collaborating to engage learners in practical teaching experiences. 
@@ -89,7 +89,7 @@ If you have an idea for a chapter that you would like to discuss further, please
 
 **Authors from oppressed and marginalized groups** are also encouraged to submit as are **authors from any academic setting**, including graduate programs, 2-year and 4-year institutions, and HBCUs. 
 
----
+<hr style="border:2px black"> </hr>
 
 # Submission Procedures
 ## Timeline  
@@ -121,7 +121,7 @@ Proposals should include the names and affiliations of all potential authors/con
 
 Chapters must not be previously published or simultaneously submitted to other venues. Authors will retain copyright of their chapters and will be able to apply a [Creative Commons](https://creativecommons.org/) <i class="fa fa-creative-commons" aria-hidden="true"></i> license when ACRL reaches the author agreement stage of the publication process. Authors will receive a complimentary eBook copy of the work, a 60% discount on the print book, and a PDF of their final chapter to deposit in their institutional repository. 
 
----
+<hr style="border:2px black"> </hr>
 
 # About the Editor
 <img src="https://academic.mattweirick.com/files/Headshot.jpg" alt="A headshot of the editor" width="45%" style="float:left">Matthew Weirick Johnson (they/them) is Librarian for English, History &amp; Comparative Literature and Lead for Teaching &amp; Learning at UCLA Library. As Lead for Teaching &amp; Learning, Johnson led the development and delivery of UCLA Library’s inaugural library instruction training for library student research assistants and continues to lead this initiative to annually train student workers to provide library instruction. They implemented the Library’s student instruction training program and continue to coordinate it.  
