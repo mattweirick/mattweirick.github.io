@@ -14,6 +14,8 @@ tags:
 - [Submission Procedures](https://academic.mattweirick.com/posts/call-for-chapters#submission-procedures)
 - [About the Editor](https://academic.mattweirick.com/posts/call-for-chapters#about-the-editor)
 
+<hr style="border-width:10">
+
 # About the Books
 Librarians are increasingly expected to provide instruction as part of their job responsibilities. Repeated reviews of librarian job ads have shown increases in instructional responsibilities or an expectation of instruction as a core responsibility for librarians (Lynch & Smith, 2001; Sproles & Ratledge, 2004; Sproles & Detmering, 2012). In Hall's (2013) survey of supervisors, 87% reported that library instruction was very important in their libraries. Additionally, they noted that assisting other instructors, on-the-job training, in-house training programs, and observing other instructors were the best ways to prepare a new librarian to do instruction. However, often library school students and early career librarians receive little or no formal teacher training in their graduate programs, from work experiences during grad school, or in their professional roles. 
 
