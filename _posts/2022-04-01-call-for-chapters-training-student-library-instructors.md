@@ -14,8 +14,6 @@ tags:
 - [Submission Procedures](https://academic.mattweirick.com/posts/call-for-chapters#submission-procedures)
 - [About the Editor](https://academic.mattweirick.com/posts/call-for-chapters#about-the-editor)
 
-<hr style="width:4px; color:black">
-
 # About the Books
 Librarians are increasingly expected to provide instruction as part of their job responsibilities. Repeated reviews of librarian job ads have shown increases in instructional responsibilities or an expectation of instruction as a core responsibility for librarians (Lynch & Smith, 2001; Sproles & Ratledge, 2004; Sproles & Detmering, 2012). In Hall's (2013) survey of supervisors, 87% reported that library instruction was very important in their libraries. Additionally, they noted that assisting other instructors, on-the-job training, in-house training programs, and observing other instructors were the best ways to prepare a new librarian to do instruction. However, often library school students and early career librarians receive little or no formal teacher training in their graduate programs, from work experiences during grad school, or in their professional roles. 
 
@@ -89,8 +87,6 @@ If you have an idea for a chapter that you would like to discuss further, please
 
 **Authors from oppressed and marginalized groups** are also encouraged to submit as are **authors from any academic setting**, including graduate programs, 2-year and 4-year institutions, and HBCUs. 
 
-<hr style="border:2px black">
-
 # Submission Procedures
 ## Timeline  
 
@@ -120,8 +116,6 @@ Proposals can be submitted using the embedded Google Form below or by visiting h
 Proposals should include the names and affiliations of all potential authors/contributors, the intended volume and section of the chapter, and a 500-word abstract. Proposals will be reviewed based on the following areas, where relevant: significance of topic, reference to existing literature, research design & methodology, content & discussion, conclusions & contributions, and quality of writing. Proposals will also be considered based on the volume and section to which they would contribute.  
 
 Chapters must not be previously published or simultaneously submitted to other venues. Authors will retain copyright of their chapters and will be able to apply a [Creative Commons](https://creativecommons.org/) <i class="fa fa-creative-commons" aria-hidden="true"></i> license when ACRL reaches the author agreement stage of the publication process. Authors will receive a complimentary eBook copy of the work, a 60% discount on the print book, and a PDF of their final chapter to deposit in their institutional repository. 
-
-<hr style="border:2px black">
 
 # About the Editor
 <img src="https://academic.mattweirick.com/files/Headshot.jpg" alt="A headshot of the editor" width="45%" style="float:left">Matthew Weirick Johnson (they/them) is Librarian for English, History &amp; Comparative Literature and Lead for Teaching &amp; Learning at UCLA Library. As Lead for Teaching &amp; Learning, Johnson led the development and delivery of UCLA Library’s inaugural library instruction training for library student research assistants and continues to lead this initiative to annually train student workers to provide library instruction. They implemented the Library’s student instruction training program and continue to coordinate it.  
