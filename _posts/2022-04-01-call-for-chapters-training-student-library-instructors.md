@@ -71,9 +71,9 @@ These edited volumes will present case studies for training library school stude
 
 If you have an idea for a chapter that you would like to discuss further, please contact me at matt@mattweirick.com <a href="mailto:matt@mattweirick.com"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
 
-Library school students and first-time authors are encouraged to submit. Again, please reach out if you have any specific questions or would like to talk through an idea together. I'm happy to provide guidance and mentorship throughout the process from proposal to final draft or to provide support in any other ways that are meaningful and helpful. 
+**Library school students** and **first-time authors** are encouraged to submit. Again, please reach out if you have any specific questions or would like to talk through an idea together. I'm happy to provide guidance and mentorship throughout the process from proposal to final draft or to provide support in any other ways that are meaningful and helpful. 
 
-Authors from oppressed and marginalized groups are also encouraged to submit as are authors from any academic setting, including graduate programs, 2-year and 4-year institutions, and HBCUs. 
+**Authors from oppressed and marginalized groups** are also encouraged to submit as are **authors from any academic setting**, including graduate programs, 2-year and 4-year institutions, and HBCUs. 
 
 # Submission Procedures
 ## Timeline  
