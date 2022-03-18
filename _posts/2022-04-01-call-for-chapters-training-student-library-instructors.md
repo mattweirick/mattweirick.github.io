@@ -41,15 +41,13 @@ The second volume will focus on training student library instructors in academic
 
 ## References
 
-<div style=“text-indent: -36px; padding-left: 36px;”>
-  <p>Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555.</p>
-  <p>Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38.</p>
-  <p>Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420. </p>
-  <p>Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21.</p>
-  <p>Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Eletronic Journal of Academic and Special Librarianship*, *5*(2-3).</p> 
-  <p>Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209.</p>
-  <p>Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94.</p>  
-</div>
+  <p style=“text-indent: -36px; padding-left: 36px;”>Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555.</p>
+  <p style=“text-indent: -36px; padding-left: 36px;”>Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38.</p>
+  <p style=“text-indent: -36px; padding-left: 36px;”>Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420. </p>
+  <p style=“text-indent: -36px; padding-left: 36px;”>Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21.</p>
+  <p style=“text-indent: -36px; padding-left: 36px;”>Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Eletronic Journal of Academic and Special Librarianship*, *5*(2-3).</p> 
+  <p style=“text-indent: -36px; padding-left: 36px;”>Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209.</p>
+  <p style=“text-indent: -36px; padding-left: 36px;”>Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94.</p>  
 
 # Call for Chapter Proposals
 These edited volumes will present case studies for training library school students or student workers to provide instruction. Each chapter should provide background and context for the case and include relevant and specific information that a colleague would need to initiate a similar program, course, collaboration, etc. Chapters will be separated into two volumes, which will include sections for (1) theory, practice, and need, (2) case studies, and (3) learner reflections and perspectives. Case studies will likely be separated into those that discuss a particular program, course, or approach to training and those that discuss partnering or collaborating to engage learners in practical teaching experiences. 
