@@ -15,7 +15,7 @@ tags:
 - [Submission Procedures](https://academic.mattweirick.com/posts/call-for-chapters#submission-procedures)
 - [About the Editor](https://academic.mattweirick.com/posts/call-for-chapters#about-the-editor)
 
-<hr style="border-width:10">
+<hr style="border-width:10; height:10px">
 
 # About the Books
 
