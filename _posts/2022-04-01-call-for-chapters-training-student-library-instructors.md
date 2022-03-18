@@ -41,12 +41,12 @@ The second volume will focus on training student library instructors in academic
 
 ## References
 
-Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555.  
-Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38.  
-Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420.  
-Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21.  
-Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Electronic Journal of Academic and Special Librarianship*, *5*(2-3).  
-Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209.  
+Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555.  <br>
+Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38.  <br>
+Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420.  <br>
+Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21.  <br>
+Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Electronic Journal of Academic and Special Librarianship*, *5*(2-3).  <br>
+Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209.  <br>
 Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94.  
 
 # Call for Chapter Proposals
