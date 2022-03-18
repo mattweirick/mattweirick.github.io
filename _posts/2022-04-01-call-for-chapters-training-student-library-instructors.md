@@ -69,7 +69,7 @@ These edited volumes will present case studies for training library school stude
 - approaches to learning about or getting experience with library instruction 
 - reflections on any training you have received - what worked well, what didn't, etc. 
 
-If you have an idea for a chapter that you would like to discuss further, please contact me at <i class="fa fa-envelope" aria-hidden="true"></i>[matt@mattweirick.com](mailto:matt@mattweirick.com)
+If you have an idea for a chapter that you would like to discuss further, please contact me at matt@mattweirick.com <a href=mailto:matt@mattweirick.com> <i class="fa fa-envelope" aria-hidden="true"></i></a>
 
 Library school students and first-time authors are encouraged to submit. Again, please reach out if you have any specific questions or would like to talk through an idea together. I'm happy to provide guidance and mentorship throughout the process from proposal to final draft or to provide support in any other ways that are meaningful and helpful. 
 
@@ -108,4 +108,4 @@ Proposals should include the names and affiliations of all potential authors/con
 
 They have published on topics related to library instruction and information literacy in *Progressive Librarian*, *Library Trends*, *College &amp; Research Libraries News*, and *The Journal of Interactive Technology &amp; Pedagogy*. Johnson has chapters accepted in forthcoming ACRL Press publications including *Academic Librarian Burnout: Causes and Responses*; *Teaching Critical Reading Skills: Strategies for Academic Librarians*; *Undergraduate Research and the Academic Librarian: Case Studies &amp; Best Practices, Volume 2*; *Instructional Identities and Information Literacy: Transforming Our Programs, Institutions, and Profession, Volume 2*; and *Everyday Evidence-Based Practice in the Academic Library: Case Studies and Reflections*.  
 
-If you have any questions or would like to discuss an idea before submitting a proposal, please contact me at <i class="fa fa-envelope" aria-hidden="true"></i>[matt@mattweirick.com](mailto:matt@mattweirick.com).
+If you have any questions or would like to discuss an idea before submitting a proposal, please contact me at matt@mattweirick.com <a href=mailto:matt@mattweirick.com> <i class="fa fa-envelope" aria-hidden="true"></i></a>
