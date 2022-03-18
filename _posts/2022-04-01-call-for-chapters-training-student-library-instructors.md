@@ -40,12 +40,12 @@ The first volume will focus on integrating teacher training in graduate programs
 The second volume will focus on training student library instructors in academic libraries through training programs, on-the-job training, or other mechanisms. The book will begin with a framing of the need for training library student workers to teach and the value of peer-to-peer teaching & learning initiatives. This will be followed by case studies of how librarians and academic libraries have incorporated instruction training for their student workers or early-career librarians to prepare them for instructional duties and case studies exploring collaborations for peer-to-peer teaching opportunities. The volume will close with reflections and perspectives from graduate students and early-career librarians about their experiences with on-the-job training or in-house training programs in academic libraries as student workers or early-career librarians.
 
 ## References
-{{< biblio-ref >}}
-Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. College & Research Libraries, 62(5), 407-420. 
-{{< /biblio-ref >}}
+<div style=“text-indent: -36px; padding-left: 36px;”>
+Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420. 
 Sproles & Ratledge, 2004  
 Sproles & Detmering, 2012  
 Dodd 2013  
+</div>
 
 # Call for Chapter Proposals
 These edited volumes will present case studies for training library school students or student workers to provide instruction. Each chapter should provide background and context for the case and include relevant and specific information that a colleague would need to initiate a similar program, course, collaboration, etc. Chapters will be separated into two volumes, which will include sections for (1) theory, practice, and need, (2) case studies, and (3) learner reflections and perspectives. Case studies will likely be separated into those that discuss a particular program, course, or approach to training and those that discuss partnering or collaborating to engage learners in practical teaching experiences. 
