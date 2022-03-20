@@ -97,6 +97,8 @@ If you have an idea for a chapter that you would like to discuss further, please
 
 ## Timeline  
 
+![A gantt chart visualizing the project timeline, which is written out below](https://academic.mattweirick.com/files/project-timeline.png)
+
 | Date | Event |
 | :---: | :---: |
 | 1 April 2022 | Call for Chapter Proposals |
