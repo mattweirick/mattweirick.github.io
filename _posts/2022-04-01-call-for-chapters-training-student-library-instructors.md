@@ -121,7 +121,7 @@ Chapters can include appendices, illustrations, figures, etc. and these are enco
 
 ## Chapter Proposals
 
-Proposals can be submitted using the embedded Google Form below or by visiting [https://forms.gle/3J5GHrHszPtH9oqH8](https://forms.gle/3J5GHrHszPtH9oqH8).     
+Proposals can be submitted using the embedded Google Form below or by visiting <a href="https://forms.gle/3J5GHrHszPtH9oqH8" target="_blank" aria-label="open the article in a new tab.">https://forms.gle/3J5GHrHszPtH9oqH8 <i class="fa fa-external-link" aria-hidden="true" title="Link opens in a new tab."></i></a>     
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScN9e0Y35VSOgH4CWIZvQ_Mx8RYf5BITYo4zjhRTmxI2qgMCQ/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
   
