@@ -47,19 +47,19 @@ The second volume will focus on training student library instructors in academic
 
 ## References
 
-Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555. https://doi.org/10.5860/crl-304    
+Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555. [https://doi.org/10.5860/crl-304](https://doi.org/10.5860/crl-304)    
 
-Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94. https://doi.org/10.1080/15228959.2020.1745131 
+Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94. [https://doi.org/10.1080/15228959.2020.1745131](https://doi.org/10.1080/15228959.2020.1745131) 
   
-Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38. https://doi.org/10.5860/crl-236  
+Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38. [https://doi.org/10.5860/crl-236](https://doi.org/10.5860/crl-236)  
   
-Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420. https://doi.org/10.5860/crl.62.5.407  
+Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420. [https://doi.org/10.5860/crl.62.5.407](https://doi.org/10.5860/crl.62.5.407)  
   
-Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21. https://doi.org/10.1080/02763877.2014.969392  
+Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21. [https://doi.org/10.1080/02763877.2014.969392](https://doi.org/10.1080/02763877.2014.969392)  
   
-Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209. https://www.jstor.org/stable/40323773  
+Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209. [https://www.jstor.org/stable/40323773](https://www.jstor.org/stable/40323773)  
 
-Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Electronic Journal of Academic and Special Librarianship*, *5*(2-3). http://southernlibrarianship.icaap.org/content/v05n02/sproles_c01.htm     
+Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Electronic Journal of Academic and Special Librarianship*, *5*(2-3). [http://southernlibrarianship.icaap.org/content/v05n02/sproles_c01.htm](http://southernlibrarianship.icaap.org/content/v05n02/sproles_c01.htm)     
 
 # Call for Chapter Proposals
 
@@ -121,7 +121,7 @@ Chapters can include appendices, illustrations, figures, etc. and these are enco
 
 ## Chapter Proposals
 
-Proposals can be submitted using the embedded Google Form below or by visiting https://forms.gle/3J5GHrHszPtH9oqH8.     
+Proposals can be submitted using the embedded Google Form below or by visiting [https://forms.gle/3J5GHrHszPtH9oqH8](https://forms.gle/3J5GHrHszPtH9oqH8).     
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScN9e0Y35VSOgH4CWIZvQ_Mx8RYf5BITYo4zjhRTmxI2qgMCQ/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
   
