@@ -47,7 +47,7 @@ The second volume will focus on training student library instructors in academic
 
 ## References
 
-<a id="Detmering-Sproles"></a>Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555. <a href="https://doi.org/10.5860/crl-304" target="_blank">https://doi.org/10.5860/crl-304</a> <i class="fa fa-up-right-from-square" aria-hidden="true"></i>     
+<a id="Detmering-Sproles"></a>Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555. <a href="https://doi.org/10.5860/crl-304" target="_blank">https://doi.org/10.5860/crl-304</a> <i class="fa fa-external-link" aria-hidden="true"></i>     
 
 <a id="Dodson"></a>Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94. [https://doi.org/10.1080/15228959.2020.1745131](https://doi.org/10.1080/15228959.2020.1745131) <i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i> 
   
