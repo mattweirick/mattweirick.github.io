@@ -47,11 +47,11 @@ The second volume will focus on training student library instructors in academic
 
 ## References
 
-Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555. [https://doi.org/10.5860/crl-304](https://doi.org/10.5860/crl-304)    
+Detmering, R., & Sproles, C. (2012). Forget the desk job: current roles and responsibilities in entry-level reference job advertisements. *College & Research Libraries*, *73*(6), 543-555. <a href="https://doi.org/10.5860/crl-304" target="_blank">https://doi.org/10.5860/crl-304</a> <i class="fa fa-arrow-up-right-from-square" aria-hidden="true"></i>     
 
 Dodson, M. (2020). On target or missing the mark? Instruction courses in LIS graduate programs. *Public Services Quarterly*, *16*(2), 83-94. [https://doi.org/10.1080/15228959.2020.1745131](https://doi.org/10.1080/15228959.2020.1745131) 
   
-<a name="Hall"></a>Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38. [https://doi.org/10.5860/crl-236](https://doi.org/10.5860/crl-236)  
+<a id="Hall"></a>Hall, R. A. (2013). Beyond the job ad: Employers and library instruction. *College & Research Libraries*, *74*(1), 24-38. [https://doi.org/10.5860/crl-236](https://doi.org/10.5860/crl-236)  
   
 Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic libraries. *College & Research Libraries*, *62*(5), 407-420. [https://doi.org/10.5860/crl.62.5.407](https://doi.org/10.5860/crl.62.5.407)  
   
