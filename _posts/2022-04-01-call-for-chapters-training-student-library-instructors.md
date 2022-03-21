@@ -57,9 +57,9 @@ Lynch, B. P., & Smith, K. R. (2001). The changing nature of work in academic lib
   
 Saunders, L. (2015). Education for instruction: A review of LIS instruction syllabi. *The Reference Librarian*, *56*(1), 1-21. https://doi.org/10.1080/02763877.2014.969392  
   
-Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Electronic Journal of Academic and Special Librarianship*, *5*(2-3). http://southernlibrarianship.icaap.org/content/v05n02/sproles_c01.htm  
-  
-Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209. https://www.jstor.org/stable/40323773     
+Sproles, C., Johnson, A. M., & Farison, L. (2008). What the teachers are teaching: How MLIS programs are preparing academic librarians for instructional roles. *Journal of Education for Library and Information Science*, *49*(3), 195-209. https://www.jstor.org/stable/40323773  
+
+Sproles, C., & Ratledge, D. (2004). An analysis of entry-level librarian ads published in American Libraries, 1982-2002. *The Electronic Journal of Academic and Special Librarianship*, *5*(2-3). http://southernlibrarianship.icaap.org/content/v05n02/sproles_c01.htm     
 
 # Call for Chapter Proposals
 
