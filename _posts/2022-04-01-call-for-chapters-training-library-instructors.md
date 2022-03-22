@@ -1,10 +1,10 @@
 ---
-title: 'Call for Chapters: Training Student Library Instructors'
+title: 'Call for Chapters: Training Library Instructors'
 date: 2022-04-01
 permalink: /posts/call-for-chapters
 tags:
   - Call for Chapters
-  - Training Student Library Instructors
+  - Training Library Instructors
 ---
 <i class="fa fa-calendar-check-o" aria-hidden="true"></i> **Chapter Proposal Deadline:** 1 June 2022
 
@@ -19,11 +19,11 @@ tags:
 
 Throughout higher education, teaching labor is undervalued and underresourced, and workers from graduate students to faculty to librarians (this is neither an exhaustive nor a mutually exclusive list) are expected to teach but often receive little or no formal training and may receive few or no opportunities for supervised teaching with feedback and reflection. In academic libraries in particular, librarians are increasingly expected to provide instruction as part of their job responsibilities; however, they often receive little or no formal training or practical, experience-based learning from their graduate programs, in work opportunities as students, or through on-the-job training as early-career librarians. These two edited volumes seek to intervene in this area by pulling together literature, reflections, and examples to support continued work in teaching librarians to teach. 
 
-Repeated reviews of librarian job ads have shown increases in instructional responsibilities or an expectation of instruction as a core responsibility for librarians ([Lynch & Smith, 2001](#Lynch-Smith); [Sproles & Ratledge, 2004](#Sproles-Ratledge); [Detmering & Sproles, 2012](#Detmering-Sproles)). In Hall's ([2013](#Hall)) survey of supervisors, 87% reported that library instruction was very important in their libraries. Additionally, they noted that assisting other instructors, on-the-job training, in-house training programs, and observing other instructors were the best ways to prepare a new librarian to do instruction. However, often library school students and early career librarians receive little or no formal teacher training in their graduate programs, from work experiences during grad school, or in their professional roles. Sproles, Johnson, & Farison ([2008](#Sproles-Johnson-Farison)), Saunders ([2015](#Saunders)), and Dodson ([2020](#Dodson)) have looked at instruction & reference course offerings,  descriptions, and syllabi in LIS graduate programs finding that the majority of programs offer courses that introduce instruction and information litearcy topics, but the opportunities are still limited with room for improvement (e.g., in the breadth of offerings and the topics discussed).  
+Repeated reviews of librarian job ads have shown increases in instructional responsibilities or an expectation of instruction as a core responsibility for librarians ([Lynch & Smith, 2001](#Lynch-Smith); [Sproles & Ratledge, 2004](#Sproles-Ratledge); [Detmering & Sproles, 2012](#Detmering-Sproles)). In Hall's ([2013](#Hall)) survey of supervisors, 87% reported that library instruction was very important in their libraries. Additionally, they noted that assisting other instructors, on-the-job training, in-house training programs, and observing other instructors were the best ways to prepare a new librarian to do instruction. However, often library school students and early career librarians receive little or no formal teacher training in their graduate programs, from work experiences during grad school, or in their professional roles. Sproles, Johnson, & Farison ([2008](#Sproles-Johnson-Farison)), Saunders ([2015](#Saunders)), and Dodson ([2020](#Dodson)) have looked at instruction & reference course offerings,  descriptions, and syllabi in LIS graduate programs finding that the majority of programs offer courses that introduce instruction and information literacy topics, but the opportunities are still limited with room for improvement (e.g., in the breadth of offerings and the topics discussed).  
 
 These two edited volumes, to be published by ACRL Press, will outline case studies and best practices for developing and delivering teacher training for students and early-career librarians in academic libraries and LIS graduate programs. 
 
-These two volumes intend to situate the impetus for training student instructors. They will
+These two volumes intend to situate the impetus for training library instructors. They will
 - explore why teacher training is important in LIS graduate programs and academic libraries,
 - provide case studies and examples with detailed resources regarding the development,
 delivery, and assessment of library instruction training in academic libraries and
@@ -37,13 +37,13 @@ Each volume will be separated into three general sections:
 - Case Studies
 - Learner Reflections & Perspectives
 
-## Training Student Library Instructors, Vol 1: A Guide for LIS Faculty &amp; Graduate Programs
+## Training Library Instructors, Vol 1: A Guide for LIS Faculty &amp; Graduate Programs
 
 The first volume will focus on integrating teacher training in graduate programs by LIS faculty. The book will begin with background and a review of relevant literature regarding training in LIS curricula, followed by case studies with practical examples of effective training in LIS programs and case studies of LIS faculty collaborating with partners on or off campus to provide training for students. The volume will close with reflections and perspectives from graduate students and early-career librarians with or without instruction training in their LIS programs. 
 
-## Training Student Library Instructors, Vol 2: A Guide for Librarians &amp; Academic Libraries
+## Training Library Instructors, Vol 2: A Guide for Librarians &amp; Academic Libraries
 
-The second volume will focus on training student library instructors in academic libraries through training programs, on-the-job training, or other mechanisms. The book will begin with a framing of the need for training library student workers to teach and the value of peer-to-peer teaching & learning initiatives. This will be followed by case studies of how librarians and academic libraries have incorporated instruction training for their student workers or early-career librarians to prepare them for instructional duties and case studies exploring collaborations for peer-to-peer teaching opportunities. The volume will close with reflections and perspectives from graduate students and early-career librarians about their experiences with on-the-job training or in-house training programs in academic libraries as student workers or early-career librarians.
+The second volume will focus on training library instructors in academic libraries through training programs, on-the-job training, or other mechanisms. The book will begin with a framing of the need for training library student workers to teach and the value of peer-to-peer teaching & learning initiatives. This will be followed by case studies of how librarians and academic libraries have incorporated instruction training for their student workers or early-career librarians to prepare them for instructional duties and case studies exploring collaborations for peer-to-peer teaching opportunities. The volume will close with reflections and perspectives from graduate students and early-career librarians about their experiences with on-the-job training or in-house training programs in academic libraries as student workers or early-career librarians.
 
 ## References
 
