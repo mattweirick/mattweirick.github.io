@@ -79,7 +79,7 @@ These edited volumes will present case studies for training library school stude
 
 - a practice or workflow for student workers, library school students, or early career librarians to shadow librarians providing instruction
 - an in-house training program for student workers and/or early-career librarians to learn about teaching & learning
-- a community of practice or reflective practice for giving and receiving feedback about library instruction 
+- a community of practice, reflective practice, or peer support program for giving and receiving feedback about library instruction or learning and growing together
 - a course or curriculum in a graduate program dedicated to teaching & learning, user education, information literacy, library instruction, etc.
 - a collaboration between a faculty member and a library or librarians to provide hands-on experience providing library instruction in any library setting
 - a professional development program or other training opportunity that introduces people to concepts related to teaching & learning, information literacy, etc. 
