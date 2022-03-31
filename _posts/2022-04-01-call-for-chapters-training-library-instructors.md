@@ -63,21 +63,23 @@ The second volume will focus on training library instructors in academic librari
 
 # Call for Chapter Proposals
 
-These edited volumes will present case studies for training library school students or student workers to provide instruction. Each chapter should provide background and context for the case and include relevant and specific information that a colleague would need to initiate a similar program, course, collaboration, etc. Chapters will be separated into two volumes, which will include sections for (1) theory, practice, and need, (2) case studies, and (3) learner reflections and perspectives. Case studies will likely be separated into those that discuss a particular program, course, or approach to training and those that discuss partnering or collaborating to engage learners in practical teaching experiences. 
+These edited volumes will present case studies for training library school students, student workers, and early-career librarians to provide instruction. Each chapter should provide background and context for the case and include relevant and specific information that a colleague would need to initiate a similar program, course, collaboration, etc. Chapters will be separated into two volumes, which will include sections for (1) theory, practice, and need, (2) case studies, and (3) learner reflections and perspectives. Case studies will likely be separated into those that discuss a particular program, course, or approach to training and those that discuss partnering or collaborating to engage learners in practical teaching experiences (though some cases may also do both). 
 
 ## Chapters related to theory, practice, and need may take any of the following approaches or others as relevant:
 
 - a review of current literature on library school programs and curricula or on-the-job training in libraries
-- an overview of the need for and value of peer-to-peer teaching & learning initiatives in libraries perhaps as related to other peer-to-peer library services
+- an overview of the need for and value of peer-to-peer teaching & learning initiatives in libraries perhaps as related to other peer-to-peer library or university services
 - a content analysis of job ads 
 - a content analysis of LIS syllabi
 - an analysis of current LIS program offerings
+- a review of the literature on job ads, LIS syllabi, and/or LIS program offerings
 - a survey of recent library school graduates or early-career librarians about how prepared they felt to do library instruction or what preparation they received in library school or on the job
 
 ## A few potential ideas for case studies are provided below: 
 
-- a practice or workflow for student workers or library school students to shadow librarians providing instruction
+- a practice or workflow for student workers, library school students, or early career librarians to shadow librarians providing instruction
 - an in-house training program for student workers and/or early-career librarians to learn about teaching & learning
+- a community of practice or reflective practice for giving and receiving feedback about library instruction 
 - a course or curriculum in a graduate program dedicated to teaching & learning, user education, information literacy, library instruction, etc.
 - a collaboration between a faculty member and a library or librarians to provide hands-on experience providing library instruction in any library setting
 - a professional development program or other training opportunity that introduces people to concepts related to teaching & learning, information literacy, etc. 
@@ -117,11 +119,20 @@ If you have an idea for a chapter that you would like to discuss further, please
 - **Case Studies:** 3,000-6,000 words
 - **Reflections:** 2,000-3,000 words
 
-Chapters can include appendices, illustrations, figures, etc. and these are encouraged where materials might be adaptable or reusable for others attempting to create similar initiatives. 
+## Formatting & Style
+
+For chapter proposals, any citation style will be great. For full chapter drafts, citations will be formatted in the **Chicago Manual of Style endnotes and bibliography format**. Chicago Manual of Style provides a [quick guide with sample citations](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html). 
+
+Final chapter submissions will include brief author biographies (under 150 words each). 
+
+Chapters can include appendices, illustrations, figures, etc. and these are encouraged where materials might be adaptable or reusable for others attempting to create similar initiatives. See more clarification from ACRL Press below for incorporating this content into your drafts: 
+>Charts, graphs, bulleted lists, photos, and other illustrations or enhancements of your content are welcomed and encouraged! Charts and graphs can be created directly in the Word document, or as separate Excel or other files such as Adobe Illustrator, as long as their placement is labelled within the manuscript and the separate file is named accordingly. For instance, if it’s the third figure in \[your] chapter, place \[\[LAST NAME FIGURE 3 HERE]] where you’d like it to appear in the manuscript, and name the separate file LAST NAME FIGURE 3. For photos, please keep them separate from the manuscript, label their placement in the manuscript, and name the file according to the system above (note: authors are responsible for securing permissions for any figure or image they wish published that they did not create themselves or that is not in the public domain). 
+
+>Final chapter manuscripts will be professionally designed, so authors shouldn’t worry too much about the appearance of the Word docs—it will change through the production process. Please use a standard font at 11 or 12 points, double spaced, and make sure the headers are consistently formatted so that our designer knows how to style them. Final chapter submissions will be copyedited for grammar, style, etc., and you will review the redline edit before we move into design. (ACRL Press)
 
 ## Chapter Proposals
 
-Proposals can be submitted using the embedded Google Form below or by visiting <a href="https://forms.gle/3J5GHrHszPtH9oqH8" target="_blank" aria-label="open the article in a new tab.">https://forms.gle/3J5GHrHszPtH9oqH8 <i class="fa fa-external-link" aria-hidden="true" title="Link opens in a new tab."></i></a>     
+Proposals can be submitted using the embedded Google Form below or by visiting [https://forms.gle/3J5GHrHszPtH9oqH8](https://forms.gle/3J5GHrHszPtH9oqH8).
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScN9e0Y35VSOgH4CWIZvQ_Mx8RYf5BITYo4zjhRTmxI2qgMCQ/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
   
