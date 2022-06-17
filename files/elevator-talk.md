@@ -23,7 +23,7 @@ Luckily, my friendly neighborhood psychologists have already done a bunch of the
 
 Based on the survey, I'm planning to conduct follow-up interviews with librarians, focusing on librarians with very high or very low job control to start to better understand those significant factors and how to mitigate them. For example, job crafting, or redesigning our own jobs to increase job satisfaction, could reduce burnout, and it usually takes three forms: changing our job tasks, changing how we think of those tasks, or changing our relationships at work. But...how do our crafty instruction librarians do their crafting?
 
-If we can find ways to improve librarians' job control, maybe we can change our approach to instruction 
+If we can find ways to improve librarians' job control, maybe we can change our approach to library instruction, designing instruction programs, empowering librarians at work, and more!
 
 Now you might be thinking: "how are they going to get this done in just a year?"" And you know...valid question. So, first I'm an Aries sun, Leo moon, Aquarius rising. What did you expect? Though, I guess you wouldn't have known that about me before. But my eyes are always bigger than my stomach, and my wine order, and apparently my research project. 
 
