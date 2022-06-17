@@ -45,3 +45,16 @@ The new gaslight, girlboss, gatekeep is just burned out, burned up, burned throu
 To quote Gretchen Wieners, "okay, irregardless"
 
 Now, you might be thinking: "how are they gonna get this done in a year?" And my answer would be, no idea! But, I bet my apartment will be wildly clean for the next year while I procrastinate!!
+
+# Sources
+Jackson, P. R., Wall, T. D., Martin, R., & Davids, K. (1993). Job control measure. [https://doi.org/10.1037/t09082-000](https://doi.org/10.1037/t09082-000)
+
+Karasek, R. A. (1979). Job demands, job decision latitude, and mental strain: Implications for job redesign. *Administrative Science Quarterly, 24*(2), 285–308. [https://doi.org/10.2307/2392498](https://doi.org/10.2307/2392498)
+
+Kristensen, T. S., Borritz, M., Villadsen, E., & Christensen, K. B. (2005). The Copenhagen Burnout Inventory: A new tool for the assessment of burnout. _Work & stress_, _19_(3), 192-207. [https://doi.org/10.1080/02678370500297720](https://doi.org/10.1080/02678370500297720)
+
+Nardine, J. (2019). The state of academic liaison librarian burnout in ARL libraries in the United States. *College & Research Libraries, 80*(4). [https://crl.acrl.org/index.php/crl/article/view/17398/19522](https://crl.acrl.org/index.php/crl/article/view/17398/19522)
+
+Taris, T. W., Bakker, A. B., Schaufeli, W. B., Stoffelsen, J., & Van Dierendonck, D. (2005). Job control and burnout across occupations. *Psychological Reports, 97*(3), 955–961. [https://doi.org/10.2466/pr0.97.3.955-961](https://doi.org/10.2466/pr0.97.3.955-961)
+
+Wood, B. A., Guimaraes, A. B., Holm, C. E., Hayes, S. W., & Brooks, K. R. (2020). Academic librarian burnout: A survey using the Copenhagen Burnout Inventory (CBI). _Journal of Library Administration_, _60_(5), 512-531. [https://doi.org/10.1080/01930826.2020.1729622](https://doi.org/10.1080/01930826.2020.1729622)
