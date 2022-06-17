@@ -1,3 +1,7 @@
+---
+title: IRDL Elevator Speech
+date: 16 June 2022
+---
 # Main Text
 Hi! Before I get started, I wanted to share an accessibility copy of my presentation if anyone wants to follow along, and I'll also share a link to [the text that first introduced me to the concept of accessibility copies](https://asecsgradcaucus.wordpress.com/2019/02/21/accessibility-at-asecs-and-beyond-a-guest-post-by-dr-jason-farr-and-dr-travis-chi-wing-lau/) if you want to learn more. 
 
