@@ -5,7 +5,7 @@ date: 16 June 2022
 # Main Text
 Hi! Before I get started, I wanted to share an accessibility copy of my presentation if anyone wants to follow along, and I'll also share a link to [the text that first introduced me to the concept of accessibility copies](https://asecsgradcaucus.wordpress.com/2019/02/21/accessibility-at-asecs-and-beyond-a-guest-post-by-dr-jason-farr-and-dr-travis-chi-wing-lau/) if you want to learn more. 
 
-So, just to set the scene: welcome to the elevator! I didn't know our university had so many presidents. Administrative bloat, amirite? Anyway, enough about you. Let's talk about academic librarians. 
+So, just to set the scene: welcome to the elevator! I didn't know our university had so many presidents. Administrative bloat, amirite? How'd you all even fit in here? I guess I could have waited for the next one...Anyway, enough about you. Let's talk about academic librarians. 
 
 Did you know...that a 2020 study by Barbara Wood and colleges found that librarians feel a greater sense of burnout than nurses, hospital doctors, and social workers—not that it's a competition, or at least not one I'd wanna win. 
 
@@ -14,6 +14,8 @@ Another study looked at job control, or an employee's ability to influence their
 In 2019, Jennifer Nardine found that, for academic liaison librarians, "lack of personal agency is the primary contributor to a sense of burnout."
 
 I don't know if you've heard, but burnout's bad! It's not like trying to get to the bottom of that bacon-scented candle I got gifted last Christmas and celebrating victoriously as I tossed it out. Burnout has psychological and physical impacts on our bodies and is a significant predictor of a whole list of negative health outcomes. Imagine Martin Luther's theses and then add on a CVS receipt. 
+
+This doesn't only matter for academic librarians. If we're thinking about instruction specifically, then burned out librarians likely aren't designing and delivering the best instructional experiences for our students or pursuing innovative teaching methods with our faculty. If we think more broadly across all of the functions of the library and the people with whom librarians interact, the results could be disastrous: like the library ghost in Ghostbusters or Tammy 2 in Parks and Rec. 
 
 So, I'm just curious about job control among librarians, and specifically librarians with instruction responsibilities. When we teach, we're often invited into other people's classes, which I think might already lower feelings of control in those settings. Most importantly, I'm curious to know what we can do to increase job control for librarians to help reduce burnout. You might also consider throwing us raises and vacation days, but I digress. 
 
@@ -29,14 +31,11 @@ Over this next year, I'm planning to focus on the survey data collection, analys
 
 Nice running into you!! Maybe you'll have better luck getting them to speed up this elevator, so you don't get stuck on here again with some stranger talking your ear off. 
 
-
-600-800 words
-
 ---
 # Links
-Accessibility copy for this presentation: 
+Accessibility copy for this presentation: [https://academic.mattweirick.com/files/elevator-talk/](https://academic.mattweirick.com/files/elevator-talk/)
 
-Post about accessibility copies: https://asecsgradcaucus.wordpress.com/2019/02/21/accessibility-at-asecs-and-beyond-a-guest-post-by-dr-jason-farr-and-dr-travis-chi-wing-lau/
+Post about accessibility copies: [https://asecsgradcaucus.wordpress.com/2019/02/21/accessibility-at-asecs-and-beyond-a-guest-post-by-dr-jason-farr-and-dr-travis-chi-wing-lau/](https://asecsgradcaucus.wordpress.com/2019/02/21/accessibility-at-asecs-and-beyond-a-guest-post-by-dr-jason-farr-and-dr-travis-chi-wing-lau/)
 
 # Jokes that Didn't Make It
 The new gaslight, girlboss, gatekeep is just burned out, burned up, burned through. 
