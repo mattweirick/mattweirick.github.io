@@ -1,7 +1,7 @@
 ---
 title: "Visioning for Research, Outreach, and Inclusion"
-collection: talks
-type: "talk"
+collection: 
+type: 
 permalink: /talks/2021-07-30-scu-presentation
 venue: "Santa Clara University"
 date: 2021-07-30
