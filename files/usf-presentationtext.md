@@ -1,85 +1,97 @@
 # A Vision for Contributing to Faculty & Graduate Student Success
 
-Matthew Weirick Johnson, MSLS
-USF Libraries, Tampa  
-15 September 2022  
-[academic.mattweirick.com](https://academic.mattweirick.com/)
+Hello! Welcome! Thank you for having me and for the opportunity to chat with you all today.. Before I get started, I just wanted to let everyone know that there’s a copy of these PowerePoint slides as well as an HTML version of the slides available on my website. I’ve also uploaded an accessibility copy of my presentation that provides a loose overview of what I’ll be saying throughout the presentation based on my notes. I’ll put a link in the chat for those on Zoom and share a shortened URL for those in. the room to go directly to the presentation page to access these materials. That link will also be available again at the end of the presentation if there’s anything you want to come back to. 
 
 ## Agenda
 
-- About Me
-- Background Information & Considerations
-- An Ethos & Vision for Research & Instruction
-- Contributing to Success in Research
-- Contributing to Success in Teaching & Learning
-- Wrap-up
-
+To kick things off, here’s an overview of what I hope to do in this presentation today. I’ll start by briefly telling you all a bit about me, then move into a bit of background mostly providing the prompt and a definition to inform my reading of the prompt. With that out of the way, I’ll share some key concepts informing an ethos and vision for research and instruction, setting the stage for how I approach this work. To illustration this framework, I’ll provide some examples of what has worked at UCLA and some ideas for future opportunities for contributing to success for faculty and graduate students in research, teaching, and learning. Afterwards, I’ll just briefly wrap up and share some additional ways to follow up with me. Throughout the presentation, I’ll be using a polling client to allow opportunities for you all to engage and share your ideas, and I look forward to hearing from you all in the Q&A or throughout the day about how you think these ideas might work in the USF context or better ideas that you have that align with opportunities in the Libraries and on campus. 
 
 ## About Me
 
-- Bachelor of English in Literature & Language; Virginia Tech, Blacksburg, VA
-
-- Master of Science in Library Science; University of North Carolina, Chapel Hill, NC
-
-	- Graduate Certificates: SILS Diversity Advocate, Interdisciplinary Health Communication, Interdisciplinary Health Disparities
-
-- UCLA Library – Associate Librarian with Career Status
-
-	-  Librarian for English, History, and Comparative Literature,
-
-	- Humanities & Social Sciences Lead for Research Services
-	- Lead for Teaching & Learning
+So, I’ll just take a quick minute to give some background about myself and who I am. Theoretically everyone has seen my CV and cover letter. I have a background in English, but while I was getting my MSLS, I got particularly interested in public health. I’ve worked as the Community Workshop Series coordinator at UNC, and I have an article in Library Trends about that experience that I’ll share at the end of the presentation. I’ve worked for a non-profit in NC advancing equity and social justice throughout the state, as a photographer for the North Carolina AIDS Action Network, and with a startup working to provide consumer health information. But we’re also all people outside of work. I like fantasy novels, and have a particularly tendency to choose not-so-great-ones, and I love both Gilmore and Gossip Girls, I like board games, especially when they’re unnecessarily complicated and have multiple rulebooks, which is likely related to my love of documentation. I love to bake, especially pastries. The image on the right is a photo of me taken by my brother.
 
 ### Ruth Wilson Gilmore 
-“Sit on committees that make decisions, not committees that make reports”
 
+I’d also just like to quickly share a quote that I really enjoy. During an online talk, Ruth Wilson Gilmore, who is an abolitionist geographer, said “sit on committees that make decisions, not committees that make reports.” I just really like the way that she centers decision-making, and I appreciate that ethos as well. I think it’s always important to keep this focus. For data- or evidence-informed decision-making, I think it’s also important to continually think about the decision we’re trying to make rather than the data or evidence we’re trying to gather. It’s important to weight the stakes, impact, and takesies-backsies-ness of a decision and make sure the time we’re investing in data or evidence gathering is warranted for a particular decision. I will also say that I prefer the term evidence-informed decision-making over evidence-based decision-making because we aren’t the borg and because sometimes I think in order to be innovative, we have to be willing to try new things that might make sense intuitively but aren’t immediately backed by data. While always avoiding what Lisa Janicke Hinchcliffe calls decision-based evidence-making. The image on the right by Stephan Röhl is of Ruth Wilson Gilmore presenting at a podium. 
 
 ## Background Information & Considerations
 
+Great, so with that I’ll move more into the actual presentation and provide just a bit of context. 
+
 ### Prompt
 
-Lead a 20 to 30-minute presentation and discussion that encourages participation describing how Research & Instruction librarians contribute to faculty and graduate student success, in collaboration with other USF Libraries units.
+Here’s my obligatory inclusion of the presentation prompt, which I’ll just quickly read. Lead a 20 to 30-minute presentation and discussion that encourages participation describing how Research & Instruction librarians contribute to faculty and graduate student success, in collaboration with other USF Libraries units.
 
 ### Student Success
-“Student success community programs promote student engagement, learning, and progress toward the student's own goals through cross-functional leadership and the strategic application of technology” (Educause Review, 2019) 
+
+I wanted to just quickly pull out the term student success here and provide a definition. While I think student success initiatives are often focused on undergraduate students, I think this approach applies for both graduate student success and faculty success (even if faculty aren’t students). “Student success community programs promote student engagement, learning, and progress toward the student's own goals through cross-functional leadership and the strategic application of technology” (Educause Review, 2019) 
 
 ### Pillars of Student Success
 
-- Whole student
-- Advising & co-curricular supports
-- Student success technology
+And with that Educause also highlights three pillars of student success: whole student, advising and co-curricular supports, and student success technology. I won’t really talk about this third one since I think that’s mainly a specific focus of Educause, but I think these first two pillars are useful for both graduate student and faculty success as we think about them as whole people with lives and goals outside of getting tenure-track positions, writing books, and getting tenure, and thinking about campus partnerships to build support for graduate students and faculty. There’s graduate advising and support, teaching and research centers, and mentorship and support for faculty frequently available, but how can the Library situate itself as a true partner in this endeavor. I think this piece about the whole student or the whole person is also really important, not just for students and faculty but also all of us as library workers. Person-centered management applies this idea similarly recognizing that we are whole people with lives outside of wok, and we can’t just entirely separate those things to always be productive people despite what is happening outside of wok. This is similarly impossible for our faculty and students. I still remember jokes as an undergrad about how you weren’t supposed to break up with a significant other anywhere near finals week. But, I think in some ways, this understanding hasn’t entirely permeated library spaces for management or for supporting our users. I was at a talk recently where a library was working to build space for their student success department on campus and were thinking about ways to collaborate, and the presenters argued that the student success center was really focused on the whole student whereas the library was focused specifically on their research success. And, the more I think about this, the more difficult it becomes for me to separate aspects of success and to compartmentalize parts of people to prioritize success in a single area. And, I say this while recognizing that scope creep is an issue in library work broadly, but I think there are ways to navigate partnerships for student success without that creep.  
 
 ## An Ethos & Vision for Research & Instruction
 
+So, now I’ll move into sharing a general ethos and attempt to quickly discuss five key concepts that inform my work and my approach to research & instruction that I think are also effectively aligned with graduate student and faculty success. 
+
 ### Key Concepts
-- Learner and user-centered design
-- Delivery, scalability, efficiency and reusability
-- Authentic assessment
-- Innovation & change management
-- Accessible & anti-racist pedagogy
+
+Here are the five general concepts that I wanted to share, and I’ll elaborate on each and then go into some examples that I think illustrate the concepts further. First, learner- and user-centered design and really the concept of design justice as well. By centering our users and our learners, in this case, our graduate students and faculty, we can focus on their specific needs. This approach will also impact the next two points as we consider centering learners and users in the design of services, instruction, resources, spaces, and so on but also in terms of how we approach assessment. Being learner- and user-centered requires engaging learners and users in new ways and giving them some control in design and decision-making processes to help them also feel empowered, heard, and supported. 
+
+As we think about teaching, learning, and research services in particular, we can think about how to center users in the design and delivery of these services. How do users want to be engaged? Online or in-person? What kinds of resources or learning objects do they prefer? LibGuides, handouts, video tutorials, or other formats? Similarly, how can we develop these services to function at scale and to be reusable as a way of maximizing our own efficiency and keeping an eye on staff workload while supporting faculty and students. Where can we eliminate redundancies and where do we need redundancies? How can we identify high impact areas, such as through curriculum mapping, and how can we identify recurring themes or topics that come up in teaching or research consultations to cerate materials that support users and staff. 
+
+Much of this work requires assessment, but I think that user-centered work requires an approach using assessment as care. What is the benefit of our assessment for users and how can we make that benefit clear and transparent for them? It’s important to avoid doing assessment for the sake of assessment but instead really focusing on our decisions and outcomes and keeping faculty and student success at the center of those assessments. 
+
+Throughout all of this, I would anticipate some changes, innovations, or just attempts to try new things. It’s important to communicatee these changes and think about ways to almost scaffold change for our users. I always think about the evolution of the iPod here, considering their slow move toward an entirely touchscreen device that was supposedly planned out to help users slowly adapt. How can we ensure that users are aware of changes, the impacts of those changes, and the reasoning behind decisions? How can we help users adapt to changes and ensure that we don’t create confusion with service models? 
+
+Finally, I think accessible and anti-racist pedagogy should be at the center of our research and instruction work. Disability justice principles and universal design for learning can improve the delivery of our services and make them more inviting and accessible to our users. Thinking back to the whole student aspect of student success, we need to ensure that the Library, its spaces, and its services are supporting all aspects of our users’ and learners'’ identities. 
 
 ### Contributing to Success in Research
 
+With that framework in mind, I want to move into some examples and ideas for contributing to success for graduate students and faculty in terms of research. I invite you all to participate via the poll to share your own ideas for what is working at USF, opportunities you’ve noticed, or new ideas you’d like to try. 
+
 #### Research Help Examples
-- Consolidated research services
-- Transitioned service model to empower student workers
-- Collaborated for advanced research workshops
-- Prioritized ease for users (online & in-person)
-- Focused on reproducibility and not reinventing the wheel
+
+At UCLA, we’ve consolidated our research help services across multiple locations. With a colleague, I co-chair our supervisors of students group, which developed shared online services for research help, eliminating redundancy from each location originally moving our desks online at the start of the pandemic. As we’ve returned to in-person services, we’ve maintained shared services at our two main locations with hours that complement each other, while we also work toward bringing back more subject-specific support options in other locations. 
+
+We’ve transition our service model to empower our student workers and free up librarian time to focus on more complex research questions and projects. Our student workers now primarily staff our online and in-person research help desks, which also alleviates the need to wrangle librarian schedules each quarter and coordinate their work on the desks. We are also moving toward staffing our chat reference service almost entirely with student workers, which has been a goal of mine as our chat service is part of a co-op so the impact for UCLA users is often low as we spend much of our time assisting uses from other institutions. 
+
+I’ve collaborated with our Digital Humanities Consortium and Library Special Collections to offer advanced research workshops for graduate students focused on learning about possible tools for use in their research and getting to try out the tools in practice using special collections materials. Along with a colleague, I also coordinate our quarterly research workshops covering a variety of topics. 
+
+As we’ve evaluated our services, we’ve prioritized ease of use for our users and prioritizing availability that meets their preferences. We generally staff online services more than in-person, and we offer a lot of our workshops online; however, we provide the majority of our course-integrated instruction in-person now.
+
+Throughout, and for both research help and teaching & learning, we’ve focused on reusable and reproducible materials and finding ways to share resources. Our Writing Instruction + Research Education initiative provides useful online education resources that can be used for research, teaching, and learning. We’ve developed a repository too for sharing lesson plans, learning activities, assessments, and tools. I think it’s important to continue identifying places where we can reuse materials, which requires some work on the front end to identify what we keep doing and to develop the resources that meet those needs.
+
+We’re working on an article now about our consolidated research services for Reference Services Review, and I’m happy to share a draft of that work if anyone is interested.
 
 ### Contributing to Success in Teaching  & Learning
 
+This example is also a good segue into thinking about contributing to success in teaching & learning.
+
 #### Teaching & Learning Examples
-- Faculty & TA Summer Information Literacy Institutes
-- Credit-bearing courses
-- Library Instruction Guidelines
-- Programmatic instructional assessment
-- Library Instruction Training
-- Anti-racist pedagogy workshop series
+
+At UCLA, we recently offered our first faculty & TA summer information literacy institutes. Each institute was a week long, one for faculty and one for TAs, with participants joining us for 3 hours each morning via Zoom to learn about incorporating research skills, information literacy skills, and the Library into their courses. For us, this has been a really effective train-the-trainer approach to help scale our instruction program and develop advocates across campus who see the Library as a partner for teaching & learning. It also transcends the liaison model in a way, allowing us to bring together people from different disciplines and letting us do some training at a program level rather than an individual level. However, again, we shared the lesson plans and materials from all of these sessions so that liaisons can reuse them to lead training for their departments, and we have had departments express interest in this kind of training. One important thing to note here too is that this was a particular opportunity that sort of presented itself, and UCLA in general has a culture of similar summer institutes with our Center for the Advancement of Teaching, Center for Education Innovation and Learning in the Sciences, and EPIC program all offering summer institutes on teaching as well. We collaborate through the cross-campus teaching innovations group and coordinate the timing of trainings and funding incentives, and also engage each other in programming and delivery.
+
+Similarly, I’ve had some great opportunities to coordinate and lead credit-bearing courses. I coordinate two ongoing engagements with Mellon Mays Undergraduate Fellows at UCLA which is focused on diversifying the professoriate. The first involves a yearly, quarter-long course for the Mellons at UCLA. I had the pleasure of co-teaching the class in Winter 2021 and will theoretically co-teach it again in Winter 2023. We are also involved with a summer program that brings Mellons from other institutions to UCLA. I had the pleasure of working with that program once in Summer 2020. While it’s focused on undergraduate students, it’s a great example of an ongoing partnership between the Library and other campus stakeholders focused on students underrepresented in the academy. I’m also teaching a new undergraduate class this fall on careers in libraries and archives, and I’m co-teaching another new class this spring that’s a TA training seminar on integrating writing and research in your teaching practice which will be an elective for our graduate certificate in writing pedagogy. This is a development of our ongoing partnership with the Writing Programs department on campus and our focus on Writing II courses which are required for all students at UCLA as a way to reach more students earlier and also a continuing development of our train-the-trainer focus on TA training and development focused on developing instructors with lifelong partnerships to campus libraries at UCLA and wherever else they go.
+
+We developed our first library instruction guidelines document which outlines a few basic principles like providing us with advanced notice for sessions, sharing course materials, and having an instructor present for the session. These guidelines aim to help us prioritize meaningful partnerships with instructors while also helping us develop more meaningful and effective learning experiences for students.
+
+We’ve developed a programmatic workflow to assess instruction at the end of each quarter. This lets us gather more data but also centralizes the process so individuals aren’t having to collect the data on their own each quarter. 
+
+As we’ve continued to empower students, we’ve offered library instruction training for our student workers, MLIS students, recent MLIS graduates, and new hires at the Library to support pedagogical understanding and a shared service approach helping ensure meaningful and effective delivery of instruction across the Library. This has also allowed us to scale up our instruction program. We have also seen no negative impact of student instructors on teaching delivery in our quarterly assessments. 
+
+Finally, we’ve developed an anti-racist pedagogy workshop series where we’ve invited paid speakers to present about a variety of topics including critical race theory, vocational awe, intersectionality, disability, library anxiety, and dismantling deficit thinking. These are open to all staff in the library. And we do also provide anti-racist and accessible training in both our research help training and our library instruction training.  
+
+We have book chapters forthcoming about the programmatic instruction assessment, library instruction training, and our work with the Mellon Mays program. I’m happy to share the accepted manuscripts with anyone who might be interested.  
 
 ## Wrapping Up
 
+I will just quickly wrap up by thanking you all again for your time and engagement and to the search committee for inviting me today. 
+
 ### Bibliography
+
+I have a couple of sources available here, including citations for some of the forthcoming materials that I mentioned throughout my presentation and some of my other publications. 
 
 ### Contact Me
 
+Finally, feel free to reach out to me, and again, you can find versions of this talk on my website if you want to access it later. Thank you all for you time and attention. 
