@@ -2,7 +2,7 @@
 title: "A Vision for Contributing to Faculty & Graduate Student Success"
 collection: talks
 type: "talk"
-permalink: /talks/2022-09-15-presentation
+permalink: /talks/2022-09-15-usf-presentation
 venue: "University of South Florida, Tampa"
 date: 2022-09-15
 
