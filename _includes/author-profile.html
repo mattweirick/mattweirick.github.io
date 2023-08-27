@@ -107,7 +107,10 @@
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
       {% if author.wikipedia %}
-        <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> Wikipedia</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa fa-fw fa-chai" aria-hidden="true"></i> Wikipedia</a></li>
+      {% endif %}
+      {% if author.wos %}
+        <li><a href="{{ author.wos }}"><i class="ai ai-researcherid ai-fw" aria-hidden="true"></i> ResearcherID</a></li>
       {% endif %}
     </ul>
   </div>
