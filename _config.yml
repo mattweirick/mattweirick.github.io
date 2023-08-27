@@ -83,7 +83,7 @@ author:
   avatar           : "profile.png"
   bio              : "Librarian & Photographer"
   location         : "Tampa, FL"
-  employer         : "University of South Florida, Tampa campus"
+  employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=dgbjIWIAAAAJ&hl=en"
   email            : "matt@mattweirick.com"
   uri              :
@@ -112,6 +112,10 @@ author:
   youtube          :
   wikipedia        :
   scopus           : "http://www.scopus.com/inward/authorDetails.url?authorID=58064074100&partnerID=MN8TOARS"
+  links:
+    - label: "Scopus Author ID"
+      icon: "ai ai-scopus"
+      url: "http://www.scopus.com/inward/authorDetails.url?authorID=58064074100&partnerID=MN8TOARS"
 
 
 # Reading Files
