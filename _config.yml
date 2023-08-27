@@ -83,7 +83,7 @@ author:
   avatar           : "profile.png"
   bio              : "Librarian & Photographer"
   location         : "Tampa, FL"
-  employer         :
+  employer         : "University of South Florida, Tampa campus"
   googlescholar    : "https://scholar.google.com/citations?user=dgbjIWIAAAAJ&hl=en"
   email            : "matt@mattweirick.com"
   uri              :
@@ -98,7 +98,7 @@ author:
   keybase          :
   instagram        : "mattbrarian"
   lastfm           :
-  linkedin         :
+  linkedin         : "matthew-w-johnson"
   orcid            : "https://orcid.org/0000-0002-6391-2088"
   pinterest        :
   soundcloud       :
@@ -111,6 +111,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  scopus           : "http://www.scopus.com/inward/authorDetails.url?authorID=58064074100&partnerID=MN8TOARS"
 
 
 # Reading Files
