@@ -3,7 +3,7 @@ title: "Promoting Critical Reading through Learner-Centered Design: WI+RE’s Ap
 collection: publications
 permalink: /publication/23-02-01-promoting-critical-reading
 excerpt: 'This chapter outlines WI+RE’s approach to teaching critical reading through critical pedagogical practice and values-driven, learner-centered design.'
-date: 23-01-01
+date: 23-02-01
 venue: 'Teaching Critical Reading Skills: Strategies for Academic Librarians, Volume 2'
 paperurl: 'https://escholarship.org/uc/item/9r34m7c9'
 --- 
