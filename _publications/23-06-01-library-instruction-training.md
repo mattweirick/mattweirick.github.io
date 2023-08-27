@@ -2,7 +2,7 @@
 title: "Transforming Our Identities as Learners and Instructors: A Library Instruction Training Program"
 collection: publications
 permalink: /publication/23-06-01-library-instruction-training
-excerpt: 'The Teaching & Learning Functional Team has designed new structures and an in-depth curriculum to prepare student research assis-tants for teaching roles.'
+excerpt: 'The Teaching & Learning Functional Team has designed new structures and an in-depth curriculum to prepare student research assistants for teaching roles.'
 date: 23-06-01
 venue: 'Instructional Identities and Information Literacy (Vol 2): Transforming Our Programs, Institutions, and Profession'
 paperurl: 'https://escholarship.org/uc/item/7qb4d5zx'
