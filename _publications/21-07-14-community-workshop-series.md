@@ -2,7 +2,7 @@
 title: "The Community Workshop Series: A Case Study for Community-Engaged Learning in LIS"
 collection: publications
 permalink: /publication/21-07-14-community-workshop-series
-excerpt: 'The authors present a case study of the CWS, including discussion of creating the program and keeping things going, and provide a how-to guide for creating your own. The authors identify four recommendations for creating a similar program to clearly delineate takeaways that might inform readers’ attempts to create similar programs, and they provide additional materials and documentation in appendices to support the creation of new community-engaged programs in LIS.'
+excerpt: 'The authors present a case study of the CWS, including discussion of creating the program and keeping things going, and provide a how-to guide for creating your own.'
 date: 21-07-14
 venue: 'Library Trends'
 paperurl: 'http://doi.org/10.1353/lib.2020.0045'
