@@ -112,6 +112,7 @@ author:
   youtube          :
   wikipedia        :
   scopus           : "http://www.scopus.com/inward/authorDetails.url?authorID=58064074100&partnerID=MN8TOARS"
+  wos              : "https://www.webofscience.com/wos/author/record/AFE-4307-2022"
   links:
     - label: "Scopus Author ID"
       icon: "ai ai-scopus ai-fw"
