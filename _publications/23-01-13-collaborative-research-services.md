@@ -2,7 +2,7 @@
 title: "Collaborative Research Services: A Peer-led Cohort Approach"
 collection: publications
 permalink: /publication/23-01-13-collaborative-research-services
-excerpt: 'While the authors' original consolidation of services and implementation of shared supervision was a result of the pandemic and primarily involved online services, the authors have maintained this shared approach and collaborative vision in returning to in-person services.'
+excerpt: 'While the authors original consolidation of services and implementation of shared supervision was a result of the pandemic and primarily involved online services, the authors have maintained this shared approach and collaborative vision in returning to in-person services.'
 date: 23-01-13
 venue: 'Reference Services Review'
 paperurl: 'https://doi.org/10.1108/RSR-09-2022-0049'
