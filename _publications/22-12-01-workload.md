@@ -2,7 +2,7 @@
 title: "What’s in a Workload? Affect, Burnout, and Complicating Capacity in Academic Librarians"
 collection: publications
 permalink: /publication/22-12-01-workload
-excerpt: 'To better consider affective and emotional labor, we explore these concepts and their application in library literature, and we discuss the ways that burnout is gendered and raced. We consider existing literature on burnout in academic libraries, assessment of burnout among academic librarians, and proposed solutions for burnout. We present several recommendations for approaching affect, burnout, and complicating capacity in order to more holistically understand and combat burnout.'
+excerpt: 'We present several recommendations for approaching affect, burnout, and complicating capacity in order to more holistically understand and combat burnout.'
 date: 22-12-01
 venue: 'Academic Librarian Burnout: Causes and Responses'
 paperurlopen: 'https://escholarship.org/uc/item/6w86w41v'
