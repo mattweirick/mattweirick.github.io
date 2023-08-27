@@ -3,6 +3,7 @@ title: "Teaching in the Digital Library: A Partnership Between Teaching Libraria
 collection: publications
 permalink: /publication/21-07-07-teaching-digital-library
 date: 21-07-07
+excerpt: 'During this time when we are physically separated, we have discovered we can work together on sustainable and open solutions that improve both remote and in-person instruction.'
 venue: 'College & Research Libraries News'
 paperurl: 'https://doi.org/10.5860/crln.82.7.302'
 
