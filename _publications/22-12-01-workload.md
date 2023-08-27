@@ -5,7 +5,7 @@ permalink: /publication/22-12-01-workload
 excerpt: 'We present several recommendations for approaching affect, burnout, and complicating capacity in order to more holistically understand and combat burnout.'
 date: 22-12-01
 venue: 'Academic Librarian Burnout: Causes and Responses'
-paperurlopen: 'https://escholarship.org/uc/item/6w86w41v'
+paperurl: 'https://escholarship.org/uc/item/6w86w41v'
 --- 
 Matthew Weirick Johnson & Sylvia Page
 
