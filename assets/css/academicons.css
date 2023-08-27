@@ -190,11 +190,23 @@
 .ai-researchgate-square:before {
   content: "\e855";
 }
+.ai-researcherid:before {
+  content: "\e91a";
+}
+.ai-researcherid-square:before {
+  content: "\e95c";
+}
 .ai-scirate:before {
   content: "\e856";
 }
 .ai-scirate-square:before {
   content: "\e857";
+}
+.ai-scopus:before {
+  content: "\e91e";
+}
+.ai-scopus-square:before {
+  content: "\e91f";
 }
 .ai-springer:before {
   content: "\e858";
