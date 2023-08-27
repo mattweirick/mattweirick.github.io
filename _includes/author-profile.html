@@ -112,6 +112,9 @@
       {% if author.wos %}
         <li><a href="{{ author.wos }}"><i class="ai ai-researcherid-square ai-fw"></i> ResearcherID</a></li>
       {% endif %}
+      {% if author.scopus %}
+        <li><a href="{{ author.scopus }}"><i class="ai ai-scopus-square ai-fw"></i> Scopus Author ID</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
