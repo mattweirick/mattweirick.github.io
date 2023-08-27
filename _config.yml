@@ -114,7 +114,7 @@ author:
   scopus           : "http://www.scopus.com/inward/authorDetails.url?authorID=58064074100&partnerID=MN8TOARS"
   links:
     - label: "Scopus Author ID"
-      icon: "ai ai-scopus"
+      icon: "ai ai-scopus ai-fw"
       url: "http://www.scopus.com/inward/authorDetails.url?authorID=58064074100&partnerID=MN8TOARS"
 
 
