@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Matthew Weirick Johnson">
+
+<title>Shorter Data Analysis Example</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="Shorter Data Analysis Example_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Shorter Data Analysis Example_files/libs/quarto-html/quarto.js"></script>
+<script src="Shorter Data Analysis Example_files/libs/quarto-html/popper.min.js"></script>
+<script src="Shorter Data Analysis Example_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Shorter Data Analysis Example_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Shorter Data Analysis Example_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Shorter Data Analysis Example_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Shorter Data Analysis Example_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Shorter Data Analysis Example_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Shorter Data Analysis Example_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Shorter Data Analysis Example</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Matthew Weirick Johnson </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load necessary libraries (warn.conflicts and quietly are just hiding error messages because you're not really supposed to run plyr and dplyr together; when running both, it's recommended that plyr be loaded first)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(formatR, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plyr, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tibble, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DataExplorer, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(SmartEDA, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ThemePark, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(easystats, <span class="at">warn.conflicts=</span>F, <span class="at">quietly=</span>T)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a> <span class="at">fig.width =</span> <span class="dv">12</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">fig.asp =</span> <span class="fl">0.8</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a> <span class="at">out.width =</span> <span class="st">"100%"</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a> <span class="at">width.cutoff=</span><span class="fu">I</span>(<span class="dv">50</span>),<span class="dv">60</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please keep in mind that I do not know what I am doing, and I am not a statistician. xoxo.</p>
+</div>
+</div>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="descriptive-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="descriptive-statistics">Descriptive Statistics</h3>
+<p>Within the sample of academic librarians who have some degree of instructional responsibility, the mean job control perceived overall (job control general) was 3.33 and the mean job control when completing instructional responsibilities (job control instruction) was 3.13. A comparison of the characteristics of these data are included in <a href="#tbl-data">Table&nbsp;1</a>. A box plot showing the distribution of these data is included in <a href="#fig-box-plots">Figure&nbsp;1</a>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Descriptive statistics summarize the data set (representing the study sample), identifying some key features such as central tendency and variability or spread.<br>
+</p>
+<p>Skewness and kurtosis are numerical tests of the normality of data (there are arguments for testing normality graphically, usually through quantile-quantile plots, histograms, box plots, violin plots, or rainclouds). The closer the skewness and kurtosis are to zero the closer the approximation of normality.<br>
+</p>
+<p><a href="#fig-box-plots">Figure&nbsp;1</a> presents a box plot as another test for normality. A violin plot or raincloud would be more useful visuals but are more difficult to read and interpret.</p>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># report_table() would achieve the same function as as.data.frame(report())</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>table1 <span class="ot">&lt;-</span> <span class="fu">rbind</span>(<span class="fu">as.data.frame</span>(<span class="fu">report</span>(d<span class="sc">$</span>jobcontrol.general.score<span class="fl">.1989</span>)), <span class="fu">as.data.frame</span>(<span class="fu">report</span>(d<span class="sc">$</span>jobcontrol.instruction.score<span class="fl">.1989</span>)))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>table1 <span class="ot">&lt;-</span> <span class="fu">t</span>(table1)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>table1 <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(table1)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(table1)[<span class="dv">1</span>] <span class="ot">=</span> <span class="st">"Job Control (General)"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(table1)[<span class="dv">2</span>] <span class="ot">=</span> <span class="st">"Job Control (Instruction)"</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>table1 <span class="ot">&lt;-</span> table1[<span class="sc">-</span><span class="dv">10</span>,]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(table1) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Mean"</span>, <span class="st">"Std. Dev."</span>, <span class="st">"Median"</span>, <span class="st">"MAD"</span>, <span class="st">"Min"</span>, <span class="st">"Max"</span>, <span class="st">"N"</span>, <span class="st">"Skewness"</span>, <span class="st">"Kurtosis"</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>table1 <span class="ot">&lt;-</span> <span class="fu">round</span>(table1, <span class="dv">2</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>table1 <span class="ot">&lt;-</span> <span class="fu">rownames_to_column</span>(table1, <span class="at">var=</span><span class="st">"Attribute"</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(table1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="tbl-data" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;1: A summary of job control data.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: right;">Job Control (General)</th>
+<th style="text-align: right;">Job Control (Instruction)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mean</td>
+<td style="text-align: right;">3.33</td>
+<td style="text-align: right;">3.13</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Std. Dev.</td>
+<td style="text-align: right;">0.52</td>
+<td style="text-align: right;">0.60</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Median</td>
+<td style="text-align: right;">3.33</td>
+<td style="text-align: right;">3.14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MAD</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">0.64</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Min</td>
+<td style="text-align: right;">1.86</td>
+<td style="text-align: right;">1.62</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Max</td>
+<td style="text-align: right;">5.00</td>
+<td style="text-align: right;">5.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">N</td>
+<td style="text-align: right;">245.00</td>
+<td style="text-align: right;">245.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Skewness</td>
+<td style="text-align: right;">-0.09</td>
+<td style="text-align: right;">0.26</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Kurtosis</td>
+<td style="text-align: right;">0.13</td>
+<td style="text-align: right;">0.30</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>p7 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(d, <span class="fu">aes</span>(<span class="at">y=</span>jobcontrol.general.score<span class="fl">.1989</span>)) <span class="sc">+</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">outlier.color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Job Control General"</span>) <span class="sc">+</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_cartesian</span>(<span class="at">ylim=</span><span class="fu">c</span>(<span class="fl">1.5</span>, <span class="dv">5</span>)) <span class="sc">+</span> </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_barbie</span>()</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>p8 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(d, <span class="fu">aes</span>(<span class="at">y=</span>jobcontrol.instruction.score<span class="fl">.1989</span>)) <span class="sc">+</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">outlier.color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Job Control Instruction"</span>) <span class="sc">+</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_cartesian</span>(<span class="at">ylim=</span><span class="fu">c</span>(<span class="fl">1.5</span>, <span class="dv">5</span>)) <span class="sc">+</span> </span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_barbie</span>()</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="fu">plots</span>(p7, p8, <span class="at">title =</span> <span class="st">"Distribution of Job Control Data"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-box-plots" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<figcaption class="figure-caption">Figure&nbsp;1: Distribution of Job Control Data.</figcaption>
+<p><img src="Shorter-Data-Analysis-Example_files/figure-html/fig-box-plots-1.png" class="img-fluid figure-img" style="width:100.0%" alt="two box plots showing the distribution of data for job control (general) and job control (instruction). The mean for the former is greater than the latter."></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="hypothesis-testing" class="level3">
+<h3 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis Testing</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Hypothesis testing is a method of statistics inference used to decide if the sample data provide enough evidence or support to draw conclusions about the population. For this study, I used t-tests and ANOVA to compare means.<br>
+</p>
+<p><strong>Student’s t-test</strong> is a statistical test used to compare the means of two groups. A <strong>paired t-test</strong> compares means of two measurements taken from the same individual. For example, paired t-tests are frequently used for comparing pre- and post-test scores. In this case, the instruction and general job control scores are from the same group of people. <strong>Analysis of Variance (ANOVA)</strong> compares the means of multiple groups.<br>
+</p>
+<p>Two hypotheses are formulated: the null hypothesis (H0) that the difference between means is 0 and the alternative hypothesis (Ha) that the true mean difference is not equal to 0.<br>
+</p>
+<p>T-tests and ANOVA are parametric tests. One assumption of parametric tests is that the data are approximately normal. As demonstrated in the descriptive statistics above, the data are approximately normal.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If your data aren’t approximately normal, there are non-parametric tests that can be used. Instead of a paired t-test, Wilcoxon Signed Rank test, instead of unpaired t-test, Mann-Whitney U test, instead of ANOVA, Kruskal-Wallis H test.<br>
+</p>
+<p>UCLA OARC provides a <a href="https://stats.oarc.ucla.edu/other/mult-pkg/whatstat/" title="Choosing the Correct Statistical Tests in SAS, Stata, SPSS and R">useful table to help you choose the correct statistical test</a>, and they provide links with directions for executing the tests in SAS, Stata, SPSS, and R.<br>
+</p>
+<p>For an example of a resent study that used non-parametric tests, see “<a href="https://crl.acrl.org/index.php/crl/article/view/25876/33812" title="Complex and Varied: Factors Related to the Research Productivity of Academic Librarians in the United States">Complex and Varied: Factors Related to the Research Productivity of Academic Librarians in the United States</a>.”</p>
+</div>
+</div>
+<p>The paired t-test testing the difference between job control general and job control instruction suggests that the effect is positive, statistically significant, and medium (difference = 0.20, 95% CI [0.16, 0.25], t(244) = 8.29, p &lt; .001; Cohen’s d = 0.53, 95% CI [0.40, 0.66]). The effect size is labeled following Cohen’s (1988) recommendations.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The results of the paired t-test are reported above. P-values are frequently used to assess statistical significance and can carry significant weight. Generally, for research in LIS, a p-value less than 0.05 is significant. 0.05, 0.01, and 0.001 are frequently used thresholds.<br>
+</p>
+<p>In 2016, the American Statistical Association (ASA) released a <a href="https://doi.org/10.1080/00031305.2016.1154108" title="ASA Statement on p-values and Statistical Significance">statement on p-values and statistical significance</a>. They informally defined a p-value as “the probability under a specified statistical model that a statistical summary of the data (e.g., the sample mean difference between two compared groups) would be equal to or more extreme than its observed value.” They note both that “p-values do not measure the probability that the studied hypothesis is true, or the probability that the data were produced by random chance alone” and that “scientific conclusions and business or policy decisions should not be based only on whether a p-value passes a specific threshold,” which is possibly to say that these thresholds are arbitrary.<br>
+</p>
+<p>In the same statement, the ASA notes that p-values don’t measure the size of an effect. As such, in my reporting of the results, I’ve included the effect size. For t-tests, the effect size is measured using Cohen’s d.&nbsp;Based on Cohen’s recommendations in his 1988 textbook, 0.5 is considered medium. The effect size measures the strength of the relationship between the variables.<br>
+</p>
+<p>Additionally, the 95% confidence intervals for the mean difference and Cohen’s d are reported. The confidence interval takes into account the size of the sample. There’s a 95% chance that the true value falls within the confidence interval. For example, there is a 95% chance that the true mean is between 0.16 and 0.25. For smaller samples, the confidence interval would be larger.<br>
+</p>
+<p>I included the code for the t-test in R below just to show how simple it is to run in R. Cohen’s d is also simple to calculate using the effectsize package from easystats. Click the arrow to unfold the code.</p>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(d<span class="sc">$</span>jobcontrol.general.score<span class="fl">.1989</span>, </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>       d<span class="sc">$</span>jobcontrol.instruction.score<span class="fl">.1989</span>, </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>       <span class="at">paired =</span> <span class="cn">TRUE</span>) </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="do">##  Paired t-test</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="do">## data:  d$jobcontrol.general.score.1989 and d$jobcontrol.instruction.score.1989</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="do">## t = 8.2908, df = 244, p-value = 7.593e-15</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="do">## alternative hypothesis: true mean difference is not equal to 0</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="do">## 95 percent confidence interval:</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="do">##  0.1552993 0.2520865</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="do">## sample estimates:</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="do">## mean difference </span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="do">##       0.2036929</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">cohens_d</span>(<span class="fu">t.test</span>(d<span class="sc">$</span>jobcontrol.general.score<span class="fl">.1989</span>, </span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>                d<span class="sc">$</span>jobcontrol.instruction.score<span class="fl">.1989</span>, </span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>                <span class="at">paired =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="do">## Cohen's d |       95% CI</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="do">## ------------------------</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="do">## 0.53      | [0.40, 0.66]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="correlation-and-linear-regression" class="level3">
+<h3 class="anchored" data-anchor-id="correlation-and-linear-regression">Correlation and Linear Regression</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Pearson’s product-moment correlation</strong> is a measure of the strength of the linear correlation between two sets of data. The correlation coefficient (r) is a value between -1 and 1. Similarly to ANOVA and t-tests, Pearson’s product moment correlation is a parametric test.<br>
+</p>
+<p><strong>Linear regression</strong> is a method of modeling the relationship between variables. The coefficient of determination (r-squared) is a measurement of the proportion of variance in the dependent variable that can be explained by the independent variable. The value of the coefficient is always between 0 and 1.<br>
+</p>
+<p>Correlation measures the linear relationship between the variable and the linear regression allows us to predict the impact of the independent variable on the dependent variable. For example, job control in instruction predicts a moderate proportion of variance in work-related burnout. Hence, we can predict that academic instruction librarians with low job control in instruction will experience greater work-related burnout in comparison to colleagues with greater job control. Linear regression may be described as explanatory. However, as with correlation, causation is not implied or inferred.</p>
+</div>
+</div>
+<p>The Pearson’s product-moment correlations between job control (instruction) and the three dimensions of burnout are as follows and as visualized in <a href="#fig-correlation-matrix">Figure&nbsp;2</a>:</p>
+<ul>
+<li><p>personal burnout: negative, statistically significant, and medium (r = -0.29, 95% CI [-0.40, -0.17], t(243) = -4.76, p &lt; .001)</p></li>
+<li><p>work-related burnout: negative, statistically significant, and large (r = -0.36, 95% CI [-0.47, -0.25], t(243) = -6.10, p &lt; .001)</p></li>
+<li><p>client-related burnout: negative, statistically significant, and large (r = -0.33, 95% CI [-0.44, -0.21], t(243) = -5.41, p &lt; .001).</p></li>
+</ul>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="ot">&lt;-</span> <span class="fu">correlation</span>(d, <span class="at">select=</span><span class="fu">c</span>(<span class="st">"jobcontrol.general.score.1989"</span>,<span class="st">"jobcontrol.instruction.score.1989"</span>, <span class="st">"TPBS"</span>, <span class="st">"TWRBS"</span>, <span class="st">"TCRBS"</span>), <span class="at">rename =</span> <span class="fu">c</span>(<span class="st">"Job Control (General)"</span>,<span class="st">"Job Control (Instruction)"</span>, <span class="st">"Personal Burnout Score"</span>, <span class="st">"Work-related Burnout Score"</span>, <span class="st">"Client-related Burnout Score"</span>))</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="sc">|&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summary</span>(<span class="at">redundant =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(<span class="at">cex=</span><span class="dv">50</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-correlation-matrix" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<figcaption class="figure-caption">Figure&nbsp;2: Correlation Matrix.</figcaption>
+<p><img src="Shorter-Data-Analysis-Example_files/figure-html/fig-correlation-matrix-1.png" class="img-fluid figure-img" style="width:100.0%" alt="A diagram with boxes demonstrating the correlations between the factors mentioned above."></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Linear models (estimated using OLS) were fitted to predict TWRBS (Figure 3), TPBS (Figure 4), and TCRBS (Figure 5) with job control when completing instructional responsibilities:</p>
+<ul>
+<li>TWRBS ~ Job Control (Instruction): The model explains a statistically significant and moderate proportion of variance (R2 = 0.13, F(1, 243) = 37.22, p &lt; .001, adj. R2 = 0.13). The model's intercept, corresponding to Job Control (Instruction) = 0, is at 86.96 (95% CI [74.77, 99.15], t(243) = 14.05, p &lt; .001). Within this model, the effect of Job Control (Instruction) is statistically significant and negative (beta = -11.85, 95% CI [-15.67, -8.02], t(243) = -6.10, p &lt; .001; Std. beta = -0.36, 95% CI [-0.48, -0.25]). The model is shown in <a href="#fig-TWRBS-instruction">Figure&nbsp;3</a> along with the linear model to predict TWRBS with Job Control (General).</li>
+</ul>
+<div class="cell" data-warnings="false">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>controlxinstruction <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(d<span class="sc">$</span>jobcontrol.general.score<span class="fl">.1989</span>, d<span class="sc">$</span>jobcontrol.instruction.score<span class="fl">.1989</span>, d<span class="sc">$</span>TWRBS, d<span class="sc">$</span>TPBS, d<span class="sc">$</span>TCRBS)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>controlxinstruction <span class="ot">&lt;-</span> tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(controlxinstruction, <span class="at">cols =</span> <span class="fu">c</span>(<span class="st">'d.jobcontrol.general.score.1989'</span>, <span class="st">'d.jobcontrol.instruction.score.1989'</span>), <span class="at">names_to =</span> <span class="st">'variable'</span>, <span class="at">values_to =</span> <span class="st">'value'</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(controlxinstruction, <span class="fu">aes</span>(<span class="at">x=</span>value, <span class="at">y=</span>d.TWRBS, <span class="at">color=</span>variable)) <span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method=</span><span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Correlation between Work-related Burnout and Job Control"</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Job Control Score"</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Work-Related Burnout Score"</span>) <span class="sc">+</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_brewer</span>(<span class="at">palette=</span><span class="st">"Dark2"</span>, <span class="at">name =</span> <span class="st">"Variables"</span>, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Job Control General"</span>, <span class="st">"Job Control Instruction"</span>)) <span class="sc">+</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">16</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-TWRBS-instruction" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<figcaption class="figure-caption">Figure&nbsp;3: Correlation between Work-related Burnout and Job Control.</figcaption>
+<p><img src="Shorter-Data-Analysis-Example_files/figure-html/fig-TWRBS-instruction-1.png" class="img-fluid figure-img" style="width:100.0%" alt="A diagram of a linear model"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>TPBS ~ Job Control (Instruction): The model explains a statistically significant and weak proportion of variance (R2 = 0.09, F(1, 243) = 22.61, p &lt; .001, adj. R2 = 0.08). The model's intercept, corresponding to Job Control (Instruction) = 0, is at 85.16 (95% CI [73.27, 97.04], t(243) = 14.11, p &lt; .001). Within this model, the effect of Job Control (Instruction) is statistically significant and negative (beta = -9.00, 95% CI [-12.73, -5.27], t(243) = -4.76, p &lt; .001; Std. beta = -0.29, 95% CI [-0.41, -0.17]). The model is shown in <a href="#fig-TPBS-instruction">Figure&nbsp;4</a> along with the linear model to predict TPBS with Job Control (General).</li>
+</ul>
+<div class="cell" data-warnings="false">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(controlxinstruction, <span class="fu">aes</span>(<span class="at">x=</span>value, <span class="at">y=</span>d.TPBS, <span class="at">color=</span>variable)) <span class="sc">+</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method=</span><span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Correlation between Personal Burnout and Job Control"</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Job Control Score"</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Personal Burnout Score"</span>) <span class="sc">+</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_brewer</span>(<span class="at">palette=</span><span class="st">"Dark2"</span>, <span class="at">name =</span> <span class="st">"Variables"</span>, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Job Control General"</span>, <span class="st">"Job Control Instruction"</span>)) <span class="sc">+</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">16</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-TPBS-instruction" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<figcaption class="figure-caption">Figure&nbsp;4: Correlation between Personal Burnout and Job Control.</figcaption>
+<p><img src="Shorter-Data-Analysis-Example_files/figure-html/fig-TPBS-instruction-1.png" class="img-fluid figure-img" style="width:100.0%" alt="A diagram of a linear model"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>TCRBS ~ Job Control (Instruction): The model explains a statistically significant and weak proportion of variance (R2 = 0.11, F(1, 243) = 29.23, p &lt; .001, adj. R2 = 0.10). The model's intercept, corresponding to Job Control (Instruction) = 0, is at 63.41 (95% CI [50.52, 76.30], t(243) = 9.69, p &lt; .001). Within this model, the effect of Job Control (Instruction) is statistically significant and negative (beta = -11.10, 95% CI [-15.15, -7.06], t(243) = -5.41, p &lt; .001; Std. beta = -0.33, 95% CI [-0.45, -0.21]). The model is shown in <a href="#fig-TCRBS-instruction">Figure&nbsp;5</a> along with the linear model to predict TCRBS with Job Control (General).</li>
+</ul>
+<div class="cell" data-warnings="false">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(controlxinstruction, <span class="fu">aes</span>(<span class="at">x=</span>value, <span class="at">y=</span>d.TCRBS, <span class="at">color=</span>variable)) <span class="sc">+</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method=</span><span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Correlation between Client-related Burnout and Job Control"</span>,</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Job Control Score"</span>,</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Total Client-Related Burnout Score"</span>) <span class="sc">+</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_brewer</span>(<span class="at">palette=</span><span class="st">"Dark2"</span>, <span class="at">name =</span> <span class="st">"Variables"</span>, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Job Control General"</span>, <span class="st">"Job Control Instruction"</span>)) <span class="sc">+</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">16</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-TCRBS-instruction" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<figcaption class="figure-caption">Figure&nbsp;5: Correlation between Client-Related Burnout and Job Control.</figcaption>
+<p><img src="Shorter-Data-Analysis-Example_files/figure-html/fig-TCRBS-instruction-1.png" class="img-fluid figure-img" style="width:100.0%" alt="A diagram of a linear model"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Standardized parameters were obtained by fitting the models on a standardized version of the dataset. 95% Confidence Intervals (CIs) and p-values were computed using a Wald t-distribution approximation.</p>
+<p>While the R2 for all of the above models using job control for instruction are lower than found in Johnson (2023) using job control in general, which suggests that job control for instruction explains a weaker proportion of variance, the data still suggest some impact of job control on burnout. Since burnout is a multi-faceted phenomenon, it makes sense that job control wouldn't be a sole predictor of burnout.</p>
+</section>
+<section id="analysis-of-variance" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-of-variance">Analysis of Variance</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We have finally arrived at the analysis of variance (ANOVA) mentioned back when I mentioned t-tests. Analysis of variance can compare means across multiple groups. In this case, ANOVA tests were used for all of the demographic and job characteristic data collected in the study as the goal is to compare the means across multiple groups (e.g., among people of different genders, different income levels, etc.).<br>
+</p>
+<p>While one-way ANOVA can test the difference between multiple groups, <strong>Tukey’s HSD</strong> can be used for post-hoc or follow up analysis test for statistically significant differences between pairs of group means.</p>
+</div>
+</div>
+<p>Author (2023) found that extent of job control is tied to status (faculty, academic staff, or staff) and teaching workload when measuring job control generally. This study looks specifically at perception of job control when completing instructional tasks and found that time since degree (in years) and whether or not training for instruction was received have statistically significant (p &lt; 0.05) effects on job control. Time at institution, full-time or part-time status, and tenure status for individuals had weaker evidence that the difference in means was not random (p &lt; 0.1). For income, the p value was slightly higher (p = 1.04), so the data are presented in the results for readers who may still be interested. Finally, because status and teaching workload were significant in the study of job control in general, details about those results are included below as well. <a href="#tbl-p-values">Table&nbsp;2</a> shows the results for statistical significance computed using ANOVA tests for each demographic and job characteristic studied. In the sections that follow, the effect sizes are labeled following Field's (2013) recommendations.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>attributes <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Gender"</span>, <span class="st">"Gender Modality"</span>,<span class="st">"Disability"</span>, <span class="st">"Income"</span>, <span class="st">"Time at Institution"</span>, <span class="st">"Time Since Degree"</span>, <span class="st">"Time in Libraries"</span>, <span class="st">"Public or Private"</span>, <span class="st">"Non-profit or For-profit"</span>, <span class="st">"Permanent or Temporary"</span>, <span class="st">"Full-time or Part-time"</span>, <span class="st">"Staff or Faculty"</span>, <span class="st">"Tenure (individual)"</span>, <span class="st">"Tenure (institution)"</span>, <span class="st">"Union"</span>, <span class="st">"Training Received"</span>, <span class="st">"Training Quality"</span>, <span class="st">"Teaching Workload"</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>values <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">0.572</span>, <span class="fl">0.192</span>, <span class="fl">0.822</span>, <span class="fl">0.104</span>, <span class="st">"0.0583 *"</span>, <span class="st">"0.0263 **"</span>, <span class="fl">0.195</span>, <span class="fl">0.406</span>, <span class="fl">0.858</span>, <span class="fl">0.187</span>, <span class="st">"0.0934 *"</span>, <span class="fl">0.238</span>, <span class="st">"0.0845 *"</span>, <span class="fl">0.215</span>, <span class="fl">0.972</span>, <span class="st">"0.0357 **"</span>, <span class="fl">0.814</span>, <span class="fl">0.11</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>table <span class="ot">&lt;-</span> <span class="fu">cbind</span>(attributes, values)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(table) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Attribute"</span>, <span class="st">"p-value"</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="tbl-p-values" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;2: P-values from ANOVA tests of attributes studied (* denotes p &lt; 0.1 and ** denotes p &lt; 0.05).</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Gender</td>
+<td style="text-align: left;">0.572</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gender Modality</td>
+<td style="text-align: left;">0.192</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Disability</td>
+<td style="text-align: left;">0.822</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Income</td>
+<td style="text-align: left;">0.104</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Time at Institution</td>
+<td style="text-align: left;">0.0583 *</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Time Since Degree</td>
+<td style="text-align: left;">0.0263 **</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Time in Libraries</td>
+<td style="text-align: left;">0.195</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Public or Private</td>
+<td style="text-align: left;">0.406</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Non-profit or For-profit</td>
+<td style="text-align: left;">0.858</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Permanent or Temporary</td>
+<td style="text-align: left;">0.187</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Full-time or Part-time</td>
+<td style="text-align: left;">0.0934 *</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Staff or Faculty</td>
+<td style="text-align: left;">0.238</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tenure (individual)</td>
+<td style="text-align: left;">0.0845 *</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tenure (institution)</td>
+<td style="text-align: left;">0.215</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Union</td>
+<td style="text-align: left;">0.972</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Training Received</td>
+<td style="text-align: left;">0.0357 **</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Training Quality</td>
+<td style="text-align: left;">0.814</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Teaching Workload</td>
+<td style="text-align: left;">0.11</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="time-since-degree" class="level4">
+<h4 class="anchored" data-anchor-id="time-since-degree">Time Since Degree</h4>
+<p>The ANOVA testing the effect of time since degree on job control for instruction suggests that the main effect is statistically significant and small (F(4, 238) = 2.81, p = 0.026; Eta2 = 0.05, 95% CI [2.91e-03, 1.00]). Post-hoc analysis using Tukey's HSD test revealed a significant difference between participants with 16 or more years since receiving their degree and participants with 1 to 5 years since receiving their degree (p &lt; 0.05) as demonstrated in <a href="#tbl-time-institution-tukey">Table&nbsp;4</a>.</p>
+<p>As demonstrated in <a href="#fig-time-institution">Figure&nbsp;6</a> and <a href="#tbl-time-institution">Table&nbsp;3</a>, job control for instruction generally increases over time, though the mean job control is highest for individuals who received their degrees less than a year ago, though the number of participants in that category is particularly low.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>d <span class="sc">|&gt;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(time.institution) <span class="sc">|&gt;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">N =</span> <span class="fu">n</span>(),</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">Mean =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>), </span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">Median =</span> <span class="fu">median</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Std. Dev."</span> <span class="ot">=</span> <span class="fu">sd</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">Min =</span> <span class="fu">min</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">Max =</span> <span class="fu">max</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Time at Institution"</span>, <span class="st">"N"</span>, <span class="st">"Mean"</span>, <span class="st">"Median"</span>, <span class="st">"Std. Dev."</span>, <span class="st">"Min."</span>, <span class="st">"Max."</span>), <span class="at">digits =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="tbl-time-institution" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;3: Job control for instruction by time since degree in intervals of years.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Time at Institution</th>
+<th style="text-align: right;">N</th>
+<th style="text-align: right;">Mean</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">Std. Dev.</th>
+<th style="text-align: right;">Min.</th>
+<th style="text-align: right;">Max.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Less than 1</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">3.11</td>
+<td style="text-align: right;">3.05</td>
+<td style="text-align: right;">0.59</td>
+<td style="text-align: right;">1.86</td>
+<td style="text-align: right;">5.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 to 5</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">3.02</td>
+<td style="text-align: right;">3.02</td>
+<td style="text-align: right;">0.61</td>
+<td style="text-align: right;">1.62</td>
+<td style="text-align: right;">5.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6 to 10</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">3.16</td>
+<td style="text-align: right;">3.24</td>
+<td style="text-align: right;">0.57</td>
+<td style="text-align: right;">1.90</td>
+<td style="text-align: right;">5.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11 to 15</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">3.22</td>
+<td style="text-align: right;">3.19</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">2.24</td>
+<td style="text-align: right;">4.38</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16 or more</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">3.35</td>
+<td style="text-align: right;">3.40</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">2.19</td>
+<td style="text-align: right;">4.29</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">TukeyHSD</span>(<span class="fu">aov</span>(jobcontrol.instruction.score<span class="fl">.1989</span> <span class="sc">~</span> time.institution, <span class="at">data =</span> d)) <span class="sc">|&gt;</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  broom<span class="sc">::</span><span class="fu">tidy</span>() <span class="sc">|&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>term, <span class="sc">-</span>null.value) <span class="sc">|&gt;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Paired Groups"</span>, <span class="st">"Difference"</span>, <span class="st">"CI Low"</span>, <span class="st">"CI High"</span>, <span class="st">"p-value"</span>),<span class="at">digits =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="tbl-time-institution-tukey" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;4: Tukey’s HSD grouped means comparison for job control for instruction by time since degree in intervals of years.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Paired Groups</th>
+<th style="text-align: right;">Difference</th>
+<th style="text-align: right;">CI Low</th>
+<th style="text-align: right;">CI High</th>
+<th style="text-align: right;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1 to 5-Less than 1</td>
+<td style="text-align: right;">-0.09</td>
+<td style="text-align: right;">-0.42</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">0.95</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6 to 10-Less than 1</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">-0.31</td>
+<td style="text-align: right;">0.42</td>
+<td style="text-align: right;">0.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11 to 15-Less than 1</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: right;">-0.33</td>
+<td style="text-align: right;">0.56</td>
+<td style="text-align: right;">0.96</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16 or more-Less than 1</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">-0.16</td>
+<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">0.46</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6 to 10-1 to 5</td>
+<td style="text-align: right;">0.14</td>
+<td style="text-align: right;">-0.13</td>
+<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.61</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11 to 15-1 to 5</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">-0.17</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">0.57</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16 or more-1 to 5</td>
+<td style="text-align: right;">0.33</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.65</td>
+<td style="text-align: right;">0.04</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11 to 15-6 to 10</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">-0.34</td>
+<td style="text-align: right;">0.47</td>
+<td style="text-align: right;">0.99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16 or more-6 to 10</td>
+<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">-0.16</td>
+<td style="text-align: right;">0.54</td>
+<td style="text-align: right;">0.57</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16 or more-11 to 15</td>
+<td style="text-align: right;">0.13</td>
+<td style="text-align: right;">-0.31</td>
+<td style="text-align: right;">0.56</td>
+<td style="text-align: right;">0.93</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>Control_instruction_timeatinstitution_means <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(d <span class="sc">%&gt;%</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>                                                          <span class="fu">group_by</span>(time.institution) <span class="sc">%&gt;%</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>                                                          <span class="fu">summarise_at</span>(<span class="fu">vars</span>(jobcontrol.instruction.score<span class="fl">.1989</span>), <span class="fu">list</span>(<span class="at">name=</span>mean)))</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>tempdf <span class="ot">&lt;-</span> d <span class="sc">%&gt;%</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(time.institution) <span class="sc">%&gt;%</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">N =</span> <span class="fu">n</span>(),</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">Mean =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>), </span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">Median =</span> <span class="fu">median</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Std. Dev."</span> <span class="ot">=</span> <span class="fu">sd</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">CI =</span> <span class="fu">qt</span>(<span class="fl">0.975</span>, <span class="at">df=</span><span class="fu">n</span>()<span class="sc">-</span><span class="dv">1</span>)<span class="sc">*</span><span class="fu">sd</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)<span class="sc">/</span><span class="fu">sqrt</span>(<span class="fu">n</span>()),</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">CI_low =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)<span class="sc">-</span>CI,</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">CI_hi =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)<span class="sc">+</span>CI,</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">Min =</span> <span class="fu">min</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>            <span class="at">Max =</span> <span class="fu">max</span>(jobcontrol.instruction.score<span class="fl">.1989</span>))</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>Control_instruction_timeatinstitution_means<span class="sc">$</span>CI_low <span class="ot">&lt;-</span> tempdf<span class="sc">$</span>CI_low</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>Control_instruction_timeatinstitution_means<span class="sc">$</span>CI_hi <span class="ot">&lt;-</span> tempdf<span class="sc">$</span>CI_hi</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>Control_instruction_timeatinstitution_means<span class="sc">$</span>time.institution <span class="ot">&lt;-</span> <span class="fu">factor</span>(Control_instruction_timeatinstitution_means<span class="sc">$</span>time.institution, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Less than 1"</span>, <span class="st">"1 to 5"</span>, <span class="st">"6 to 10"</span>, <span class="st">"11 to 15"</span>, <span class="st">"16 or more"</span>))</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>Control_instruction_timeatinstitution_means <span class="ot">&lt;-</span> Control_instruction_timeatinstitution_means[<span class="sc">-</span><span class="dv">6</span>,]</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(Control_instruction_timeatinstitution_means, <span class="fu">aes</span>(<span class="at">x=</span>time.institution, <span class="at">y=</span>name)) <span class="sc">+</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> barbie_theme_colors[<span class="st">"dark"</span>]) <span class="sc">+</span> </span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin=</span>CI_low, <span class="at">ymax=</span>CI_hi),</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>                <span class="at">linewidth=</span>.<span class="dv">3</span>,</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>                <span class="at">width=</span>.<span class="dv">2</span>,</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>                <span class="at">position=</span><span class="fu">position_dodge</span>(.<span class="dv">9</span>)) <span class="sc">+</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x=</span><span class="st">"Time at Institution (in Years)"</span>, <span class="at">y=</span><span class="st">"Job Control Score"</span>, <span class="at">title=</span><span class="st">"Average Job Control for Instruction Duties </span><span class="sc">\n</span><span class="st"> by Intervals of Number of Years at Current Institution"</span>, <span class="at">caption =</span> <span class="st">"*Error bars indicate a 95% confidence interval for the corresponding mean."</span>) <span class="sc">+</span></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_barbie</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-time-institution" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<figcaption class="figure-caption">Figure&nbsp;6: Average job control for instruction duties by intervals of numbers of years since library school.</figcaption>
+<p><img src="Shorter-Data-Analysis-Example_files/figure-html/fig-time-institution-1.png" class="img-fluid figure-img" style="width:100.0%" alt="A column chart"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="training-received" class="level4">
+<h4 class="anchored" data-anchor-id="training-received">Training Received</h4>
+<p>The ANOVA testing the effect of whether or not teacher training was received on job contrtol for instruction suggests that the main effect is statistically significant and small (F(2, 242) = 3.38, p = 0.036; Eta2 = 0.03, 95% CI [9.70e-04, 1.00]). For this test, teacher training received was flattened to yes or no. Respondents had three yes options: "Yes, in library school and on the job," "Yes, only in library school," and "Yes, only on the job." The difference between these was not statistically significant, but the difference was statistically significant when comparing yes to no. Post-hoc analysis using Tukey's HSD test revealed a significant difference between respondents who received no teacher training and respondents who provided free text responses coded as "Other” as demonstrated in <a href="#tbl-training-tukey">Table&nbsp;6</a>.</p>
+<p>As demonstrated in <a href="#tbl-training">Table&nbsp;5</a> and <a href="#fig-training">Figure&nbsp;7</a>, mean job control for instruction is higher for those who have received training for library instruction than those who haven't; however, job control for instruction is particularly high for those who responded "Other." Responses for other generally referenced teacher training that was not specific to libraries or not provided through a library program.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>d <span class="sc">|&gt;</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Training3) <span class="sc">|&gt;</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">N =</span> <span class="fu">n</span>(),</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">Mean =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>), </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">Median =</span> <span class="fu">median</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Std. Dev."</span> <span class="ot">=</span> <span class="fu">sd</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">Min =</span> <span class="fu">min</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">Max =</span> <span class="fu">max</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable</span>(<span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Training Received"</span>, <span class="st">"N"</span>, <span class="st">"Mean"</span>, <span class="st">"Median"</span>, <span class="st">"Std. Dev."</span>, <span class="st">"Min."</span>, <span class="st">"Max."</span>), <span class="at">digits =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="tbl-training" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;5: Job control for instruction by whether or not training was received.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Training Received</th>
+<th style="text-align: right;">N</th>
+<th style="text-align: right;">Mean</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">Std. Dev.</th>
+<th style="text-align: right;">Min.</th>
+<th style="text-align: right;">Max.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">173</td>
+<td style="text-align: right;">3.14</td>
+<td style="text-align: right;">3.14</td>
+<td style="text-align: right;">0.61</td>
+<td style="text-align: right;">1.86</td>
+<td style="text-align: right;">5.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">No</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">3.02</td>
+<td style="text-align: right;">3.00</td>
+<td style="text-align: right;">0.57</td>
+<td style="text-align: right;">1.62</td>
+<td style="text-align: right;">4.29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Other</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">3.47</td>
+<td style="text-align: right;">3.40</td>
+<td style="text-align: right;">0.43</td>
+<td style="text-align: right;">2.71</td>
+<td style="text-align: right;">4.10</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-training-tukey" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;6: Tukey’s HSD grouped means comparison for job control for instruction by time since degree in intervals of years.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Paired Groups</th>
+<th style="text-align: right;">Difference</th>
+<th style="text-align: right;">CI Low</th>
+<th style="text-align: right;">CI High</th>
+<th style="text-align: right;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">No-Yes</td>
+<td style="text-align: right;">-0.13</td>
+<td style="text-align: right;">-0.34</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0.34</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Other-Yes</td>
+<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">-0.06</td>
+<td style="text-align: right;">0.71</td>
+<td style="text-align: right;">0.12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Other-No</td>
+<td style="text-align: right;">0.45</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.87</td>
+<td style="text-align: right;">0.03</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>Control_instruction_Training_means <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(d <span class="sc">%&gt;%</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>                                     <span class="fu">group_by</span>(Training3) <span class="sc">%&gt;%</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>                                     <span class="fu">summarise_at</span>(<span class="fu">vars</span>(jobcontrol.instruction.score<span class="fl">.1989</span>), <span class="fu">list</span>(<span class="at">name=</span>mean)))</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>tempdf <span class="ot">&lt;-</span> d <span class="sc">%&gt;%</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Training3) <span class="sc">%&gt;%</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">N =</span> <span class="fu">n</span>(),</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">Mean =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>), </span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">Median =</span> <span class="fu">median</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Std. Dev."</span> <span class="ot">=</span> <span class="fu">sd</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">CI =</span> <span class="fu">qt</span>(<span class="fl">0.975</span>, <span class="at">df=</span><span class="fu">n</span>()<span class="sc">-</span><span class="dv">1</span>)<span class="sc">*</span><span class="fu">sd</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)<span class="sc">/</span><span class="fu">sqrt</span>(<span class="fu">n</span>()),</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">CI_low =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)<span class="sc">-</span>CI,</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">CI_hi =</span> <span class="fu">mean</span>(jobcontrol.instruction.score<span class="fl">.1989</span>)<span class="sc">+</span>CI,</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">Min =</span> <span class="fu">min</span>(jobcontrol.instruction.score<span class="fl">.1989</span>),</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>            <span class="at">Max =</span> <span class="fu">max</span>(jobcontrol.instruction.score<span class="fl">.1989</span>))</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>Control_instruction_Training_means<span class="sc">$</span>CI_low <span class="ot">&lt;-</span> tempdf<span class="sc">$</span>CI_low</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>Control_instruction_Training_means<span class="sc">$</span>CI_hi <span class="ot">&lt;-</span> tempdf<span class="sc">$</span>CI_hi</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>Control_instruction_Training_means<span class="sc">$</span>Training3 <span class="ot">&lt;-</span> <span class="fu">factor</span>(Control_instruction_Training_means<span class="sc">$</span>Training3, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Yes"</span>, <span class="st">"No"</span>, <span class="st">"Other"</span>))</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(Control_instruction_Training_means, <span class="fu">aes</span>(<span class="at">x=</span>Training3, <span class="at">y=</span>name)) <span class="sc">+</span></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> barbie_theme_colors[<span class="st">"dark"</span>]) <span class="sc">+</span> </span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin=</span>CI_low, <span class="at">ymax=</span>CI_hi),</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>                <span class="at">linewidth=</span>.<span class="dv">3</span>,</span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>                <span class="at">width=</span>.<span class="dv">2</span>,</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>                <span class="at">position=</span><span class="fu">position_dodge</span>(.<span class="dv">9</span>)) <span class="sc">+</span></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x=</span><span class="st">"Teacher Training Received"</span>, <span class="at">y=</span><span class="st">"Job Control Score"</span>, <span class="at">title=</span><span class="st">"Average Job Control for Instruction Duties </span><span class="sc">\n</span><span class="st"> by Whether or Not Participant Received Teacher Training"</span>, <span class="at">caption =</span> <span class="st">"*Error bars indicate a 95% confidence interval for the corresponding mean."</span>) <span class="sc">+</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_barbie</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-training" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<figcaption class="figure-caption">Figure&nbsp;7: Average job control for instruction duties by whether or not participant received training.</figcaption>
+<p><img src="Shorter-Data-Analysis-Example_files/figure-html/fig-training-1.png" class="img-fluid figure-img" style="width:100.0%" alt="A column chart"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
