@@ -1,6 +1,6 @@
 ---
 title: '2023 Christmas Movie Calendar'
-date: 2023-11-01
+date: 2023-10-29
 permalink: /posts/2023-christmas-movie-calendar
 tags:
   - Christmas movies
