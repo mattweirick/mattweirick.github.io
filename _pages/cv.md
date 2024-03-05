@@ -2,6 +2,7 @@
 layout: archive
 title: "CV"
 author_profile: true
+data: 2099-09-11
 ---
 
 {% include base_path %}
